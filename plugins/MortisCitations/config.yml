@@ -1,0 +1,43 @@
+citation:
+  execution: TITLE #Either "CHAT" or "TITLE"
+  delay: 120 #in ticks | 20 Ticks = 1 Second
+  citations:
+    CITATION1:
+     - "Kitpvp plugin"
+     - "None_030"
+    CITATION2:
+      - "Server configuration"
+      - "MrErrorX"
+    CITATION3:
+      - "Modified Worldchat plugin"
+      - "ChatGPT"
+    CITATION4:
+      - "Weapon models"
+      - "SuperTNT20"
+    CITATION5:
+      - "Afghanistan Final"
+      - "Spxrtans & gabrielito294"
+    CITATION6:
+      - "Shipment"
+      - "Xeroph19"
+    CITATION7:
+      - "Blood Gulch"
+      - "Beany"
+    CITATION8:
+      - "Dust 2"
+      - "nova1120"
+    CITATION9:
+      - "Hijacked"
+      - "NiickNumber1"
+    CITATION10:
+      - "Highrise"
+      - "NiickNumber1"
+    CITATION11:
+      - "Italy"
+      - "anhcraft"
+    CITATION12:
+      - "Killhouse"
+      - "Qiuye_"
+    CITATION13:
+      - "Making this possible"
+      - "you"

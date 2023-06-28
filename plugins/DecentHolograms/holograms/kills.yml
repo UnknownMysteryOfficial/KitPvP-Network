@@ -1,0 +1,33 @@
+location: world:237.424:188.25:174.541
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&1&lTOP 10 &c&lTotal Kills&7:'
+    height: 0.3
+  - content: '&e%playerstats_ top: 1, player_kills%'
+    height: 0.3
+  - content: '&e%playerstats_ top: 2, player_kills%'
+    height: 0.3
+  - content: '&e%playerstats_ top: 3, player_kills%'
+    height: 0.3
+  - content: '&e%playerstats_ top: 4, player_kills%'
+    height: 0.3 
+  - content: '&e%playerstats_ top: 5, player_kills%'
+    height: 0.3    
+  - content: '&e%playerstats_ top: 6, player_kills%'
+    height: 0.3
+  - content: '&e%playerstats_ top: 7, player_kills%'
+    height: 0.3
+  - content: '&e%playerstats_ top: 8, player_kills%'
+    height: 0.3
+  - content: '&e%playerstats_ top: 9, player_kills%'
+    height: 0.3 
+  - content: '&e%playerstats_ top: 10, player_kills%'
+    height: 0.3
+  actions: {}
+actions: {}

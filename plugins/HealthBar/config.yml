@@ -1,0 +1,20 @@
+#Player Bar Customization
+players: true
+displayName: '&c<3'
+require-permission: false
+#Mobs Customization
+#Experimental function brings two styling options (only for mobs)
+#Style 1 = Customizable in style-display
+#Style 2 = Blocks Bar Style
+#
+#Placeholders: %entityName%, %health%, %maxHealth%, <3 becomes a hearth -> ❤
+mobs: true
+mythic-mobs: true
+mobs-style: 2
+style-display: '%health% &c<3'
+mobs-fade-out: 13
+#Global Configuration
+disabled-worlds:
+  - world_example
+disabled-mobs:
+  - MOB_TYPE_IN_UPPER_CASE
