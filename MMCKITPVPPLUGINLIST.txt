@@ -27,7 +27,7 @@ Free:
   - https://www.spigotmc.org/resources/viaversion.19254/ ViaVersion: allows support for future versions. Version 4.6.2.
   - https://www.spigotmc.org/resources/viabackwards.27448/ ViaBackwards: allows support for past versions. Version 4.6.1.
   - https://www.spigotmc.org/resources/viarewind.52109/ ViaRewind: support for very old versions. Version 2.0.3.
-  - https://www.spigotmc.org/resources/world-chat.368/ WorldChat: separates chats between arenas to avoid spam. Had to manually modify with chatgpt to work, see github. Version 1.0.
+  - https://www.spigotmc.org/resources/world-chat.368/ WorldChat: separates chats between arenas to avoid spam. Had to manually modify with chatgpt to work. Version 1.0.
   - https://dev.bukkit.org/projects/worldedit WorldEdit: lets you edit maps quickly. Version 7.2.14 bukkit.
   - https://dev.bukkit.org/projects/worldguard Worldguard: edits properties of worlds. Version 7.0.7 bukkit.
   - https://www.spigotmc.org/resources/znpcs.80940/ Znpcs: npcs at spawn. Version 4.1.
