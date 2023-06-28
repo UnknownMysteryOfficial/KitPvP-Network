@@ -1,0 +1,117 @@
+items:
+  BATTLEFIELD_ELYTRA:
+    material: ELYTRA
+    amount: 1
+  ONE_VS_ONE:
+    material: COMPASS
+    amount: 1
+    name: "&a1v1 MatchMaking"
+  TWO_VS_TWO:
+    material: COMPASS
+    amount: 1
+    name: "&a2v2 MatchMaking"
+  THREE_VS_THREE:
+    material: COMPASS
+    amount: 1
+    name: "&a3v3 MatchMaking"
+  FOUR_VS_FOUR:
+    material: COMPASS
+    amount: 1
+    name: "&a4v4 MatchMaking"
+  EIGHT_VS_EIGHT:
+    material: COMPASS
+    amount: 1
+    name: "&a8v8 MatchMaking"
+  RANDOM_KIT:
+    material: REDSTONE
+    amount: 1
+    name: "&aRandom Kit"
+  PARATROOPER:
+    material: ELYTRA
+    amount: 1
+    name: "&aParatrooper"
+    lore: 
+    - "Death from above"
+  DEAGKIT:
+    material: STONE_HOE
+    amount: 1
+    name: "&aDeaglebros"
+    custom-model-data: 5
+    lore: 
+    - "Rye wanna play halo?"
+  SOLDIER:
+    material: STONE_HOE
+    amount: 1
+    name: "&aSoldier"
+    custom-model-data: 16
+    lore: 
+    - "Boots on the ground"
+  REVOLVER:
+    material: STONE_HOE
+    amount: 1
+    name: "&aSniper"
+    custom-model-data: 8
+    name: "&aRevolver"
+    lore: 
+    - "Kid named revolver"
+  CHEMIST:
+    material: POTION
+    amount: 1
+    name: "&aChemist"
+    lore: 
+    - "Violates the geneva convention"
+  LASTIYAXE:
+    material: IRON_AXE
+    amount: 1
+    name: "&aLastiy"
+    lore: 
+    - "For when you haven't seen the outside in months"
+  FLY:
+    material: PHANTOM_MEMBRANE
+    amount: 1
+    name: "&aThe Fly"
+    lore: 
+    - "On the walls"
+  SNIPER:
+    material: STONE_HOE
+    amount: 1
+    name: "&aSniper"
+    custom-model-data: 11
+    lore: 
+    - "JARATE!!!"
+  HEAVYWEP:
+    material: STONE_HOE
+    amount: 1
+    name: "&aHeavy weapons"
+    custom-model-data: 1
+    lore: 
+    - "Can't outsmart a bullet"
+  SUS:
+    material: PLAYER_HEAD
+    amount: 1
+    texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdkNWViMGFlYTVkNjFiYTNmZjQ5OTY0MTZhOTAwOTZhOWQ3NzYwOWViY2QzYjMwOGY5MDZhZTg4OGE0NWY2ZCJ9fX0=
+    name: "&aImposter"
+    lore: 
+    - "Red Sus over paradise"
+    - "Premium only kit"
+  CHINA:
+    material: PLAYER_HEAD
+    amount: 1
+    texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y5YmMwMzVjZGM4MGYxYWI1ZTExOThmMjlmM2FkM2ZkZDJiNDJkOWE2OWFlYjY0ZGU5OTA2ODE4MDBiOThkYyJ9fX0=
+    name: "&aSuperpower"
+    lore: 
+    - "Bloons TD Battles"
+  USA:
+    material: PLAYER_HEAD
+    amount: 1
+    texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q5MTQ1Njg3N2Y1NGJmMWFjZTI1MWU0Y2VlNDBkYmE1OTdkMmNjNDAzNjJjYjhmNGVkNzExZTUwYjBiZTViMyJ9fX0=
+    name: "&aThe Original"
+    lore: 
+    - "USA! USA!"
+  HALO:
+    material: PLAYER_HEAD
+    amount: 1
+    texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBiYmE1NDdiODQ1NjcxM2UzODBmNjY4ZGE3ZmU2Y2ZhODg5YTA3NmQ0NjQ4ZDA0NzU4NmZkODEwMmZlZWE3In19fQ==
+    name: "&aHalo Reach"
+    lore: 
+    - "CURRENT OBJECTIVE: SURVIVE"

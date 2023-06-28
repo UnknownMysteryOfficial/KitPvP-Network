@@ -1,0 +1,29 @@
+interval-milestone:
+  requirement: 2
+  commands:
+    - "give %player_name% minecraft:splash_potion{Potion:strong_healing}"
+milestones:
+  MILESTONE_1:
+    requirement: 3
+    commands:
+      - "give %player_name% golden_apple"
+  MILESTONE_2:
+    requirement: 5
+    message: "%player_name% is on a kill streak (5 kills)"
+    commands:
+      - "give %player_name% golden_apple 3"
+  MILESTONE_3:
+    requirement: 8
+    commands:
+      - "give %player_name% health_potion 6"
+  MILESTONE_4:
+    requirement: 14
+    message: "%player_name% is LEGENDARY (14 kills)"
+    commands:
+      - "give %player_name% health_potion 8"
+  MILESTONE_5:
+    requirement: 20
+    message: "%player_name% is GODLIKE (20 kills)"
+    commands:
+      - "give %player_name% health_potion 8"
+      - "give %player_name% enchanted_golden_apple 2"

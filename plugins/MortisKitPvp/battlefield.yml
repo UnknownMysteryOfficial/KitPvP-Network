@@ -1,0 +1,12 @@
+
+battlefield:
+  name: "&aAfghanistan Final"
+  author: "&aSpxrtans & Gabrielito294"
+  world: world
+  spawn: 237.407,185,159.801,0,0
+  protected-origin: 525,220,-139
+  protected-end: -37,128,454
+  elytra: BATTLEFIELD_ELYTRA
+  durability: false
+  hunger: true
+  protected-hunger: false
