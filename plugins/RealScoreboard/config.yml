@@ -1,0 +1,102 @@
+#✦------------------------------------------------------✦
+#|                      Main Config                     |
+#✦------------------------------------------------------✦
+#RealScoreboard created by JoseGamerPT and maintained by Neziw
+#
+#Useful links:
+#SpigotMC - https://www.spigotmc.org/resources/realscoreboard-1-13-to-1-19-2.22928/
+#Discord Server - https://discord.gg/t7gfnYZKy8
+#bStats - https://bstats.org/plugin/bukkit/RealScoreboard/10080
+#HEX Color Formats: https://github.com/Iridium-Development/IridiumColorAPI
+#API for Developers: https://github.com/JoseGamerPT/RealScoreboard/blob/master/api.md
+Debug: false
+Config:
+  ItemAdder-Support: false
+  mcMMO-Support: false
+  Check-for-Updates: true
+  Prefix: '&2MMCKitPvp&9Network &7| &r'
+  Reloaded: '&fThe config has been &areloaded&f.'
+  Use-Placeholders-In-Scoreboard-Titles: false
+  RealScoreboard-Disabled-By-Default: false
+  Hours:
+    Formatting: HH:mm:ss
+    Offset: 0
+  Messages:
+    Scoreboard-Toggle:
+      ON: '&fScoreboard turned &aON&f.'
+      OFF: '&fScoreboard turned &cOFF&f.'
+  Animations:
+    Title-Delay: 20
+    Loop-Delay: 20
+  Scoreboard-Refresh: 10
+  Disabled-Worlds:
+  - testWorld
+  - ExampleWorld2
+  Bypass-Worlds:
+  - skywarsLobby
+  Scoreboard:
+    world:
+      special:
+        Switch-Timer: 50
+        Boards:
+          Board1:
+            Title:
+            - '&2>&2MODERNMC'
+            - '&2>&2MODERNMC&7_'
+            Lines:
+            - '%blank%'
+            - ' &2USER: &7%playername% &8| &d%ping%'
+            - '%blank%'
+            - ' &7Kit: &f%mortiskitpvp_kit%'
+            - '%blank%'
+            - ' &7Map: &f%mortiskitpvp_map%'
+            - '%blank%'
+            - ' &7Author: &f%mortiskitpvp_author%'
+            - '%blank%'
+            - ' &7KillStreak: &f%mortiskitpvp_killstreak%'
+            - '%blank%'
+            - ' &7Online: &4%online%&8/&1%maxplayers%'
+            - '%blank%'
+            - '      &2modernmckitpvp.serv.nu'
+      default:
+        Switch-Timer: 35
+        Boards:
+          Board1:
+            Title:
+            - '&2>&2MODERNMC'
+            - '&2>&2MODERNMC&7_'
+            Lines:
+            - '%blank%'
+            - ' &2USER: &7%playername% &8| &d%ping%'
+            - '%blank%'
+            - ' &7Kit: &f%mortiskitpvp_kit%'
+            - '%blank%'
+            - ' &7Map: &f%mortiskitpvp_map%'
+            - '%blank%'
+            - ' &7Author: &f%mortiskitpvp_author%'
+            - '%blank%'
+            - ' &7KillStreak: &f%mortiskitpvp_killstreak%'
+            - '%blank%'
+            - ' &7Online: &4%online%&8/&1%maxplayers%'
+            - '%blank%'
+            - '      &2modernmckitpvp.serv.nu'
+          Board2:
+            Title:
+            - '&2>&2MODERNMC'
+            - '&2>&2MODERNMC&7_'
+            Lines:
+            - '%blank%'
+            - ' &2USER: &7%playername% &8| &d%ping%'
+            - '%blank%'
+            - ' &7Kit: &f%mortiskitpvp_kit%'
+            - '%blank%'
+            - ' &7Map: &f%mortiskitpvp_map%'
+            - '%blank%'
+            - ' &7Author: &f%mortiskitpvp_author%'
+            - '%blank%'
+            - ' &7KillStreak: &f%mortiskitpvp_killstreak%'
+            - '%blank%'
+            - ' &7Online: &4%online%&8/&1%maxplayers%'
+            - '%blank%'
+            - '      &2modernmckitpvp.serv.nu'
+Version: 14

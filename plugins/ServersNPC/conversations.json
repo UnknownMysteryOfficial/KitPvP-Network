@@ -1,0 +1,149 @@
+[
+  {
+    "name": "First",
+    "texts": [
+      {
+        "lines": [
+          "Hello! Welcome to the server."
+        ],
+        "actions": [],
+        "delay": 4
+      },
+      {
+        "lines": [
+          "As you might have guessed, this server is the ModernMC kitpvp server\n          "
+        ],
+        "actions": [],
+        "delay": 6
+      },
+      {
+        "lines": [
+          "In order to best enjoy your time here, you may need a quick explanation as to how to play.\n          "
+        ],
+        "actions": [],
+        "delay": 5
+      },
+      {
+        "lines": [
+          "The NPC next to me named Kits can give you a kit, there are many kits to choose from, all with different abilities and weaknesses.\n          "
+        ],
+        "actions": [],
+        "delay": 10
+      },
+      {
+        "lines": [
+          "There is also a Match Making NPC, right clicking him will allow you to queue up for public matchmaking and get in a game with other players.\n          "
+        ],
+        "actions": [],
+        "delay": 8
+      },
+      {
+        "lines": [
+          "While waiting in the queue, you can jump off the chinook and fight in the battlefield below.\n          "
+        ],
+        "actions": [],
+        "delay": 6
+      },
+      {
+        "lines": [
+          "You currently should have an elytra, when jumping from the chinook, be sure to deploy it while falling in order to survive the way down. You can do this by pressing space and looking horizontally mid fall.\n          "
+        ],
+        "actions": [],
+        "delay": 14
+      },
+      {
+        "lines": [
+          "This will also give you your selected kit when you land and allow you to fight other combatants.\n          "
+        ],
+        "actions": [],
+        "delay": 8
+      },
+      {
+        "lines": [
+          "Be careful! Enemy players can attack and possibly kill you while you are flying off the chinook.\n          "
+        ],
+        "actions": [],
+        "delay": 6
+      },
+      {
+        "lines": [
+          "Once you leave the chinook, you will not reappear here until you die, log off, or get put in a match. You can do /spawn if you are not combat tagged to return manually however.\n          "
+        ],
+        "actions": [],
+        "delay": 12
+      },
+      {
+        "lines": [
+          "There is also a killstreak. While not only being a way to brag to your friends, it also provides benefits such as gaining special items at certain milestones.\n          "
+        ],
+        "actions": [],
+        "delay": 10
+      },
+      {
+        "lines": [
+          "The top 10 players with the most kills total get displayed at the back of the chinook.\n          "
+        ],
+        "actions": [],
+        "delay": 8
+      },
+      {
+        "lines": [
+          "If you don't want to fight below or join a public match, you can duel your friends with /duel player_name_here\n          "
+        ],
+        "actions": [],
+        "delay": 10
+      },
+      {
+        "lines": [
+          "You can make a party with /party create Party_name_here.\n          "
+        ],
+        "actions": [],
+        "delay": 8
+      },
+      {
+        "lines": [
+          "You can view information about your party with /party info, kick with /party kick player_name_here, and leave with /party leave. If the leader leaves, the party is disbanded.\n          "
+        ],
+        "actions": [],
+        "delay": 12
+      },
+      {
+        "lines": [
+          "You can view other parties with /party list, run /duel party_name_here to duel said party. individual players can duel parties (If they make their own one person party) and parties do not need even player counts.\n          "
+        ],
+        "actions": [],
+        "delay": 12
+      },
+      {
+        "lines": [
+          "You can invite players to your party with /party invite player_name_here, where they then must accept it with /party accept. You can also do /party chat to make your chat seen only by party members. Friendly fire is on, so you can still accidently hurt your party mates.\n          "
+        ],
+        "actions": [],
+        "delay": 14
+      },
+      {
+        "lines": [
+          "You can leave mid-duel with /leave and leave the queue for a match with /kitpvp matchmaking leave.\n          "
+        ],
+        "actions": [],
+        "delay": 8
+      },
+      {
+        "lines": [
+          "That should be all you need to get started. Thanks for playing and have fun!\n          "
+        ],
+        "actions": [],
+        "delay": 4
+      },
+      {
+        "lines": [
+          "One more thing, you can see who did what for the server by running /citations."
+        ],
+        "actions": [],
+        "delay": 8
+      }
+    ],
+    "radius": 5,
+    "delay": 10
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY4MjU5NjMxNzg1OCwKICAicHJvZmlsZUlkIiA6ICI4ZDNmOTZiMGE2MzA0NGVhYjFkM2M0MTVlOWIzZmU3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaWkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2M5ZDBmMmVjOWNjZGZiMjU0MTFiMmUyZDg3ZTBjNzI2YTg0NDA5ZmYwZWE5MGM0NzJjNGQ3NDE3NGY5MmViMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+    "signature": "WD1O00QWP6w2hC4wpqLMaNQ9jkj7dzxOWYLQvpDvrAzpomnpSvW8kgV0Hu+3HrA4vxseUcE3XCVtsIexBjTZbtZvTYrBBKgG58o1vdNeFIoWpmGB+WyKkFfIX4pE/YNKH/llWa+FtkBZvIJ/tZMNHs1x7hhkJCX+tT3dmN5trDoe6SSy8B5I/2/mdakz7R7on3D55RYdyGCHmQT5o9PGBuEIyjr9C/sZDkLvtQUShqC7FHhCtMcf7o9fR7MONMdh3YKWNdkBV/oOEPMZOrvomcmImR4OO7vosKTTIkSMiwNmWZ5JC7vlTd5YPqlIggOSwD10AECUwj1/ytluUYRB0Uaeb3yVwnNzMp0ad4WCOBGrtPa4DKXpTI1fFZWv4QOKhOo+Y2npgaArcOQG9J7/XNsAUbBGNaFHujz55mVIIVdPtOdA3HGrw0oYxA//RPyNZwpcuxn8895953Hp8EiPgFz5zvKFat1yukFREbeYeWRy4iCWD3ZBz6C0VXbnULdI50rXVM59iWFV4knNBx0sBSchx7rFRVZM5hhORIVzJ0GAoGyXk0aAWJl5ooGaFkZnz8KaaDFO6dx49AxdGR0Z6oQZRbe48aoctmkFmPrv1LKbC9MCU9ACzu7RsmvZJK5YcqgaqLww260GhWU3E++zK5MOzQQPLwDvFjnjxeov1b8=",
+    "skinName": "tutorial",
+    "conversation": {
+      "conversationName": "First",
+      "conversationType": "CLICK"
+    },
+    "location": {
+      "world": "hub",
+      "x": 261.5,
+      "y": 33.4375,
+      "z": 91.5,
+      "yaw": 175.3512,
+      "pitch": -2.2091184
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&7Click-me",
+      "&k&lh-&f&lTutorial-&k&lh"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true,
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 2,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTM2NTI2NTg1MSwKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDI5MzI3NmIyNjUxZjI3ODNlMjljNWYzNjZjZjAzNDhiNjIwOGVjZmNhNDI4YTBhOWVhMjk0N2VhNGVmMTAwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+    "signature": "jOjCsYAxjKZ+3WCGnAl0Vc2bAb5sUdxB2INo0D2LOS6GuKYyctDVdW+SdWD1C8ovi9YEfJ8uosWKrhYUlC66Z0DtUTKVLYDKPIG3U4eLpUbksjgkQuySEpoBUaL8aCyn0L5aeQKjtE/wmFT/TDrPwb1U1/HGQMUoL0OliICk4zmZXo0IzPhl1P3pK6vL8ccFpX+uNgiRPxpU/vUq7LYtktXWUwanxoe64RTowhZllRNJx3p2b9b+RsGfVyCERCNfqR4BmFv0zoIBUtVa/WBiYXRVY+6ejGWS3w0yYFUseO4AuY5rHToA+M+OagaGzh2/xv3cp1NfFOAU1mAtnbrocvcl8JFmh18evez1CO21JunltP+/bQImIrTsm4Gh/4voMjSeKef/C/fw+vQUsGaphJhIVFbb1OLWaPHeG6fdNyBRz16UtmTXuPzpQNKNFvFoGlgPaF7yNp/fpQo/rspp4TWWVuFB8Y7urxmwyMLAUiVUCMPIuLHQVksfofV5HhTKj4wK/GcBqEbCf3qpASUN/pI98nXSN60xiXGCgisppDjqWV+0cZzrxgEudMXjF6aurRua9m6wDqC43JTPVlKIzVWPdixUO9Xo3jhk7Z/+ATo7gRaOBukvIVMV9jJ1ay5c7q6pGJjqjl4Q4WZ9nzAopXpB/7pK1F9S2DKvpCz/x4g=",
+    "skinName": "http://textures.minecraft.net/texture/a4293276b2651f2783e29c5f366cf0348b6208ecfca428a0a9ea2947ea4ef100",
+    "conversation": {
+      "conversationName": "first",
+      "conversationType": "CLICK"
+    },
+    "location": {
+      "world": "world",
+      "x": 239.5,
+      "y": 185.0,
+      "z": 164.5,
+      "yaw": 90.75164,
+      "pitch": -4.350093
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&2&lTutorial"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true,
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 3,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY4MzQxMTY1NzI3OCwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA3MjI4Y2EyMGE0MmRkMjgyN2E1ZWE1MzIxM2Q3YjZjZTlhNzNkZTY0YmEzMDdmYzQ1ZmFlMTE5MDkyNDM1YiIKICAgIH0KICB9Cn0=",
+    "signature": "nYbpcGZQ6rTnZSkNyonN6FLNgH+Zmrg1V3wDq9CZ7QH7/fbdwHeGJKEuMTelLuiCtHExq76tw42HtO1hZVmSdfZh3V5xSaZ5zJh8N/ca/lkkM/QeCcntVgoGmiNr8qJb8UsL5uKr3cEJhX4YfDxaE+au5qs0iUMR1Ok87bIDfHBOwh/v+LKINrpN7f2yS47QZ8gkde8GA/nKuqXOR0AhocDkOQQa7eeYhelj5ZXJHPgSJmiOs45O5MrGI6pjED8JnECju7aum/ZlCu1ODVMKvX4/mR1N1PpXglQbe49+Wsb7i/WOeFq0d/62V788Ec/ge2I6f6W6gNrIKvulpChOAhfHsRZNKkFatji/NQUob2Mo6WHAraDUakWnUPXWVQspwYCrkCk6e+XwqIv2fneM/r+mbYskchFETDYNHiLrCf/osgohOM6e/XexqRiH+kYAPqVhJFeHBMVmU2CgiSuEItoV1Zx8J76FcZmiK43lcNKwhIHPqWZpqNhoAfgGPi72ZlHDQN/GtYqXF3Wv/z8D/ZxEwXHjkWjPJwaMla+NeNNmDkvAf9cHO+ZeoYRk1qtsVnhuIMRJCq3Nlixd2jB7II0KEEl0SDhTyWGRHQuE7A9fH+fe9YfQN5byHVc3Nm5ZHuhbj36GnIUqENLlmuBWwo68hkZV/rXV8g8INhBb4tg=",
+    "skinName": "http://textures.minecraft.net/texture/407228ca20a42dd2827a5ea53213d7b6ce9a73de64ba307fc45fae119092435b",
+    "location": {
+      "world": "world",
+      "x": 237.5,
+      "y": 185.0,
+      "z": 155.5,
+      "yaw": 0.2999878,
+      "pitch": -1.5000021
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&fback-to-server-hub",
+      "&fClick-me-to-go",
+      "&2&lHub"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true,
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 4,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY3MDc2NDI2NTQ3NywKICAicHJvZmlsZUlkIiA6ICIxYmY4ZjBiZDRkZjc0Njg1ODQwNjU2NDc2ZGU0NmNmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcnV6YWRhMjIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmIzZjMxOWI5ZWZlYjRhNjE2MzJiNjNmNDQ4ZGI0MzhmNmEzMDVmMDhkMjczYmY4ZTNiYzk4YjE4NGE2MWU1MCIKICAgIH0KICB9Cn0=",
+    "signature": "P9Kq+UDlXw89B3fR4h5kcE2y0j6ky7crNQDSkrrB6WQnVRUGLqo/Jtb06kfjOFu52ksVf9qPKh9DwnJUGaitCrgYTClpZyU0k7kfByP5S3OhbHxrXLFeQTmRlVneEt9WheQ5Bz1b0231ZplMwrGGvm7I65UGDdehFgj1FFgCXR+2peHypFXlshIgZXxID1GgqOxjmbumT1vp25v89Nov2vSi6TUzlqui1GvTOiBJMzeU1M9sbiyM5+BACQxgli4Hdo8iGzYYm8d1WrLapZpGAsryR0IrhCM0UGVUDh7CYLrKBrPVnfhZxseE6DLVEVlb0LkJUcFD2UNiOxLd6pTVa3SYmoToFGGQRk/iu2a/NfGvSeiaVl17NKrz9sKELkjNLf/f8zI91UbtyJlgeehwnid/eoXm5mlosGkyF6kyBv99h5Bb8K4qB26ZVZbsEaPvxycmFdd4ao06bqV785teJuDjm2zYeYlRyyjIijy9rfultswb6yl89T4RtsTCz+GP4JZrs6bnXkL8MWMctRDc+Lvwvelk/7DmmwuwINKfQfQkFA1xiGTuTJSZuMU/AiNizBjiDrHgH9lawuHgBPGJ9p7sTUlW0NkH1k6dNWy+L47eCPCalVeO/C+6Zk8oXhkeuioreATAkC91W3rxP7LA7uTgn33J4rNnjkU35ZLlhns=",
+    "skinName": "http://textures.minecraft.net/texture/fb3f319b9efeb4a61632b63f448db438f6a305f08d273bf8e3bc98b184a61e50",
+    "location": {
+      "world": "world",
+      "x": 239.5,
+      "y": 185.0,
+      "z": 168.5,
+      "yaw": 89.851036,
+      "pitch": 0.2998983
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&2&lShop"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true,
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 6,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY4NTMzMzE1NzIxMiwKICAicHJvZmlsZUlkIiA6ICIzY2MxMTY3MWU0MTM0ODM0YjhjMmZjMTY1OGE4OWU3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSb3NzaTU2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZmZDAzMDdiYmM5ZjdiNGE5ZTk4NDIyYTY0ZTI0MmE1NWNiZDcxMmMzMmQ4ZjgyZDdmZGE3ZGEwZjI5MzFkODUiCiAgICB9CiAgfQp9",
+    "signature": "avw9dcXdATqvKwa6RDwLk/RHC9Cs0wLJ4J5ROZV2YXh2R/onNkVdNnjRQ0OCOEQR1uJb9bER1dzF9UypuYLz/RXXAQTsNaGlTCXfUBLwg9XTxG+zMNHrFcyFa/qUlE6qVUCGgccT54YJcrODiVSQz9yYtCkYe3RNd1wwNAvC2+iUzrrYD6BaGEhFGIBtSa+nwap81SweYCKGObHiH2nLEjpaBvkAM1pBhV+pQpAoHvmvynTeiR0X8wiIQYxWumwxskcbbN1c87K3g2JmYWq2mpqIzZ3lNUf06MSNwRt7bUurgpDIDmT8loc0oAJkrxnIYzbDvFmFI7jcHOUx3wx0pQcCK+uxjh0h5zLPw2GdUqeChDTj0PzbKggUC2IJqwDArt+IUhv6wlH/6U+2L+x8P8HW0lAfUj9/e0r2rD+7qXQ3Na41rXncz8donf4l8TyM2XZfIwksiR4xzpE538EtATlVV7cqpacpmX+MGLRIulg19lwaKDfsA79gn1vF/pAW+N2CRLY59iqnyTlLcSfRjNLK9BosGFC76dzsGNA6s+kW9TkBDuMa49keCIixeUaC6llGACx6x1QI/eG6Mrguz5sagWsW14tO00W+dlulkT7IhnVh9Np5lYlAv5r/JPYkN+Aa3Q/2NhzBDsOtd1zqg0QvnGrxj7bnOZXre53oKis=",
+    "skinName": "http://textures.minecraft.net/texture/ffd0307bbc9f7b4a9e98422a64e242a55cbd712c32d8f82d7fda7da0f2931d85",
+    "location": {
+      "world": "world",
+      "x": 235.5,
+      "y": 185.0,
+      "z": 168.5,
+      "yaw": -89.39865,
+      "pitch": -1.1822581E-4
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&2&lMatch-Making"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "kitpvp matchmaking %player_name%",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true,
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 5,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYyNzMwMTk4MjE4NSwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U5ODM4MjcwOTMzNDE1M2E1NDc0YmEwYzU0NmQ1NmZkMDkxYzBiMmY5OGFlODYzYjVmNTI3YzcxZDY3MjBiZDAiCiAgICB9CiAgfQp9",
+    "signature": "Fj5rwJeYay08BrhjXfSvWf2L49M2so3PViFWBLwcrvlmywDcpoXvGX8wmXWvMo5EZDEQIi/noha/mRhSHHeU4LFyKTU4lY64ZvyLEhGJU4avs7Ul2RiQgGlc9GE3Anj9ha2YkN7uSQBeP22SbEk1K6Maj8O3a0NtXOiuIfdMfsGih7EfdUcBdEc4awQKToRlyC6O7a3UF2HOixwXKU8WYQADkObasE5kDVWMdiuYOjfZFgkzCRFeicBy2Rll0UuMlbE1KgvTt/cTtvNSgWLbw07HldccIqrnPBHYa09+4+8xlqpAvNu0QLG14yL+TfoxmhfWC1V6UN0ueISwk8vV07GoegOyWKpWBaYkVDrUXb6fFXNP1cH8KBXhbLeoRR3e3sBiAMuG1FM4T4HwUXzHBkfWmUsJdDe/45SWeuxMwZXgtZ7QKwZD0O+zT+GxcQeFPhXkhbPTK6uApxUkiR4/cEIJJZGQ6SKzi/03XN76B90v7R8M1iIVegGmWG9ro4sI3WeF8JXQ2yJs6PJgkmMe8an+9GDwybLFkzmWhLb3Jj0vfmQGc+V95wpkXXztj6KNEi0hd4bygIKsgtNzeVAuMaOKTmosntld1dtnVcH38+T+7bp3G5Rsi+YOPsKnmLVRZ6F8iLJP8nJIkhwtiOZDFRGHj5gV13UvDOjRFrxsaOc=",
+    "skinName": "http://textures.minecraft.net/texture/e98382709334153a5474ba0c546d56fd091c0b2f98ae863b5f527c71d6720bd0",
+    "location": {
+      "world": "world",
+      "x": 235.5,
+      "y": 185.0,
+      "z": 164.5,
+      "yaw": -92.39859,
+      "pitch": 0.8999515
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&2&lKits"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "kitpvp kit %player_name%",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true,
+      "look": true
+    },
+    "customizationMap": {}
+  }
+]
