@@ -57,7 +57,7 @@ Config:
             - '%blank%'
             - ' &7Online: &4%online%&8/&1%maxplayers%'
             - '%blank%'
-            - '      &2modernmckitpvp.serv.nu'
+            - '      &2play.modernmc.net'
       default:
         Switch-Timer: 35
         Boards:
@@ -79,7 +79,7 @@ Config:
             - '%blank%'
             - ' &7Online: &4%online%&8/&1%maxplayers%'
             - '%blank%'
-            - '      &2modernmckitpvp.serv.nu'
+            - '      &2play.modernmc.net'
           Board2:
             Title:
             - '&2>&2MODERNMC'
@@ -98,5 +98,5 @@ Config:
             - '%blank%'
             - ' &7Online: &4%online%&8/&1%maxplayers%'
             - '%blank%'
-            - '      &2modernmckitpvp.serv.nu'
+            - '      &2play.modernmc.net'
 Version: 14
