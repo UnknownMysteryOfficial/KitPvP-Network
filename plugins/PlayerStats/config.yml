@@ -1,0 +1,197 @@
+# ------------------------------------------------------------------------------------------------------ #
+#                                     PlayerStats Configuration                                          #
+# ------------------------------------------------------------------------------------------------------ #
+config-version: 7
+
+
+#                                # ------------------------------- #                                     #
+#                                #            General              #                                     #
+#                                # ------------------------------- #                                     #
+
+# How much output you'll get in the server console while PlayerStats is processing
+# 1 = low (only show unexpected errors)
+# 2 = medium (log main tasks and time taken)
+# 3 = high (log all tasks and time taken)
+debug-level: 1
+
+# Whether players have to wait for their lookup to finish before they can request another statistic
+# Warning: disabling this could put stress on your server if players spam the stat-command!
+only-allow-one-lookup-at-a-time-per-player: true
+
+# Whether statistics can be shared with everyone in chat
+enable-stat-sharing: true
+
+# How often players can share statistics in chat (use this if you want to limit chat spam)
+# Leave this on 0 to disable the cool-down, or specify the number of minutes you want players to wait
+waiting-time-before-sharing-again: 0
+
+# Filtering options to control which players should be included in statistic calculations
+include-whitelist-only: false
+exclude-banned-players: false
+
+# To only show statistics from players that have been online in the last [x] days, set a number for x
+# Leave this on 0 to include all players
+number-of-days-since-last-joined: 0
+
+# Players that are excluded through the previous settings or the excluded-players-file will not
+# show up in top or server statistics. This setting controls whether you can still see their stats with
+# the /stat player command
+allow-player-lookups-for-excluded-players: true
+
+
+#                                # ------------------------------- #                                     #
+#                                #        Format & Display         #                                     #
+#                                # ------------------------------- #                                     #
+
+# Display all statistic, block, item and entity names in the client language of the receiving player
+# The actual translation is handled by the Minecraft language files and happens automatically
+translate-to-client-language: true
+
+# Use hover-text for additional info about statistic numbers
+enable-hover-text: true
+
+# Automatically use themed formatting for the duration of certain holidays or festivals
+enable-festive-formatting: true
+
+# Always use the rainbow theme
+rainbow-mode: false
+
+# Start the below stat-results with an empty line in chat before the result
+use-enters:
+  top-stats: true
+  top-stats-shared: false
+  player-stats: false
+  player-stats-shared: false
+  server-stats: false
+  server-stats-shared: false
+
+# Align the stat-numbers in the top list with dots
+use-dots: true
+
+# The maximum number of results displayed in the top list
+top-list-max-size: 10
+
+# The title above the top list (this will become 'Top 10 animals bred', for example)
+top-list-title: 'Top'
+
+# The title in front of a total-on-this-server statistic
+# This will become 'Total on My Awesome Server: [n] animals bred', for example
+total-server-stat-title: 'Total on'
+your-server-name: 'this server'
+
+
+#                                # ------------------------------- #                                     #
+#                                #             Units               #                                     #
+#                                # ------------------------------- #                                     #
+
+# Minecraft measures distance in cm. PlayerStats supports: blocks, cm, m (= blocks), miles, km
+distance-unit: blocks
+distance-unit-for-hover-text: km
+
+# Minecraft measures damage in 0.5 hearts (1HP). PlayerStats supports: hp, hearts
+damage-unit: hearts
+damage-unit-for-hover-text: hp
+
+# Minecraft measures time in ticks. With the below settings, PlayerStats will:
+# Auto-detect the biggest unit to use (weeks/days/hours/minutes/seconds) for your players' statistics
+# Show as many additional smaller units as you choose (so for 3 extra units, "9D" would become "9D 5H 20M")
+auto-detect-biggest-time-unit: true
+number-of-extra-units: 1
+auto-detect-biggest-time-unit-for-hover-text: false
+number-of-extra-units-for-hover-text: 0
+
+# To always use the same units, set the auto-detect settings to false and select your own unit range here
+# If the biggest and smallest unit are the same, only that unit will be displayed
+# PlayerStats supports: days, hours, minutes, seconds (and ticks if you want the original number)
+biggest-time-unit: days
+smallest-time-unit: hours
+biggest-time-unit-for-hover-text: hours
+smallest-time-unit-for-hover-text: seconds
+
+
+#                                # ------------------------------- #                                     #
+#                                #          Color & Style          #                                     #
+#                                # ------------------------------- #                                     #
+
+# How much lighter the color of a hovering number should be compared to the plain number
+# Below number represents a percentage between 0 and 100
+hover-text-amount-lighter: 40
+
+
+# The colors below can be Chat Colors or hex codes (format: '#xxxxxx' <-- including quotation marks!)
+
+#             # -------- Styles --------- #               # -------- Chat Colors --------- #             #
+#             #                           #               #                                #             #
+#             #           bold            #               #      red          dark_red     #             #
+#             #          italic           #               #    yellow           gold       #             #
+#             #        underlined         #               #     green        dark_green    #             #
+#             #          magic            #               #     aqua          dark_aqua    #             #
+#             #       strikethrough       #               #     blue          dark_blue    #             #
+#             # ------------------------- #               #  light_purple    dark_purple   #             #
+#                                                         #     gray          dark_gray    #             #
+#                                                         #     black           white      #             #
+#                                                         # ------------------------------ #             #
+
+shared-stats:
+  shared-by: gray
+  shared-by-style: italic
+
+  player-name: "#EE8A19"
+  player-name-style: italic
+
+
+top-list:
+  title: '#FFD52B'
+  title-style: none
+
+  title-number: gold
+  title-number-style: none
+
+  stat-names: '#FFD52B'
+  stat-names-style: none
+
+  sub-stat-names: yellow
+  sub-stat-names-style: none
+
+  rank-numbers: gold
+  rank-numbers-style: none
+
+  player-names: green
+  player-names-style: none
+
+  stat-numbers: '#55AAFF'
+  stat-numbers-style: none
+
+  dots: dark_gray
+  dots-style: none
+
+
+individual-statistics:
+  player-names: gold
+  player-names-style: none
+
+  stat-names: '#FFD52B'
+  stat-names-style: none
+
+  sub-stat-names: yellow
+  sub-stat-names-style: none
+
+  stat-numbers: '#ADE7FF'
+  stat-numbers-style: none
+
+
+total-server:
+  title: '#55AAFF'
+  title-style: none
+
+  server-name: '#55AAFF'
+  server-name-style: none
+
+  stat-names: '#FFD52B'
+  stat-names-style: none
+
+  sub-stat-names: yellow
+  sub-stat-names-style: none
+
+  stat-numbers: '#ADE7FF'
+  stat-numbers-style: none
