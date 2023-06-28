@@ -1,0 +1,32 @@
+# Bietet die Möglichkeit eine zufällige Nachricht auszugeben (die gleiche zufällige Nachricht wird nicht als nächstes ausgegeben)
+# Offers the possibility to send a random message (the same random message will not be issued next)
+random: true
+
+# Zeit in Sekunden
+# Time in seconds
+time: 600
+
+# Zeigt die Automessages in der Konsole an
+# Show automessage in Console
+console: false
+
+# Zeigt den Präfix vor der Automessage
+# Shows the prefix before the automessage
+showPrefix: false
+
+# Messages
+language: messages-english
+
+messages-german:
+  prefix: '&8[&2Server&8] '
+  noMessages: '&cEs wurden keine Automessages eingetragen.'
+  noPermission: '&cDu hast keinen Zugriff auf diesen Command.'
+  automessage-reload: '&7Die Nachrichten wurden aktualisiert.'
+  automessage-useage: '&7Nutze /Automessage reload.'
+
+messages-english:
+  prefix: '&8[&2Server&8] '
+  noMessages: '&cNo automessages have been enterd.'
+  noPermission: '&cYou do not have access to this command.'
+  automessage-reload: '&7The messages has been updated.'
+  automessage-useage: '&7Use /Automessage reload.'

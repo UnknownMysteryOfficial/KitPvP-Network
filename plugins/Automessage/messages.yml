@@ -1,0 +1,32 @@
+# Add a permission to the messages so that they are only sent to players with this permission
+# PermissionType:
+# hasPermission - send the message to players who have the permission
+# hasNotPermission - send the message to players who do not have the permission
+#
+# world:
+# add worlds in which the message should be sent
+
+example-1:
+  kits:
+    - '&8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+    - '&aTry a new kit!'
+    - '&7Could be a favorite...'
+    - '&8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+matchmake:
+  messages:
+    - '&8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+    - '&aHave a PvP match in the arena!'
+    - '&7Simply select a match in the matchmaking npc at spawn! Can leave the queue with /leave'
+    - '&8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+Duels:
+  messages:
+    - '&8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+    - '&aShow your friends who is boss.'
+    - '&7do /duel with a player or party name to challenge a person to a fight.'
+    - '&8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+parachute:
+  messages:
+    - '&8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+    - '&aDont forget your parachute.'
+    - '&7The elytra must be deployed in order to both receive your kit and survive the fall.'
+    - '&8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
