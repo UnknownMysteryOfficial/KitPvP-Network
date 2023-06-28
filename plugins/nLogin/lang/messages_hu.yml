@@ -1,0 +1,503 @@
+####################################################################################################
+# +----------------------------------------------------------------------------------------------+ #
+# |                                          __             _                                    | #
+# |                                 _ __   / /  ___   __ _(_)_ __                                | #
+# |                                | '_ \ / /  / _ \ / _` | | '_ \                               | #
+# |                                | | | / /__| (_) | (_| | | | | |                              | #
+# |                                |_| |_\____/\___/ \__, |_|_| |_|                              | #
+# |                                                    |___/                                     | #
+# |                                                                                              | #
+# |                      A practical, secure and friendly authentication plugin                  | #
+# |                                                                                              | #
+# |                                © 2022 - Powered by nickuc.com                                | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |  New options are not automatically added in this file. Default values are used               | #
+# |  if an option is not found.                                                                  | #
+# |                                                                                              | #
+# |  Translation made by: simon21 <3                                                             | #
+# +----------------------------------------------------------------------------------------------+ #
+####################################################################################################
+
+Messages:
+  Title:
+    before-login:
+      title: "&a&lKöszöntelek!"
+      subtitle: "&7Használat: /login <Jelszavad>"
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+    before-register:
+      title: "&a&lKöszöntelek!"
+      subtitle: "&7Használat: /register <Jelszavad> <Jelszavad>"
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+    after-login:
+      title: ""
+      subtitle: "&aSikeresen beléptél!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    after-register:
+      title: ""
+      subtitle: "&aSikeresen beregisztráltál!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    incorrect-password:
+      title: ""
+      subtitle: "&cHibás jelszó!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    already-login:
+      title: ""
+      subtitle: "&cTe már be vagy lépve!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    already-registered:
+      title: ""
+      subtitle: "&cTe már be vagy regisztrálva!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    passwords-dont-match:
+      title: ""
+      subtitle: "&cJelszavak nem azonosak!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    session-login:
+      title: ""
+      subtitle: "&eBejelentkezésed folytatódik."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    premium-login:
+      title: ""
+      subtitle: "&eFiókod eredetis, sikeresen beléptél!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    bedrock-login:
+      title: ""
+      subtitle: "&eBelépés a Bedrockon keresztül, sikeresen bejelentkeztem."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    plugin-reload:
+      title: ""
+      subtitle: "&aA fájlok sikeresen újra lett töltve!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    backup:
+      title: ""
+      subtitle: "&aSikeresen visszaállitottál egy mentést."
+      delays:
+        start: 2
+        duration: 90
+        end: 6
+    backup-error:
+      title: ""
+      subtitle: "&cNincs visszaállitási pont."
+      delays:
+        start: 2
+        duration: 90
+        end: 6
+    security-warning:
+      title: ""
+      subtitle: "&cBiztonsági okokból figyelmeztetést küldtek chatre!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    answer-required:
+      title: ""
+      subtitle: "&eKérjük, válaszoljon a csevegésben elküldött kérdésre."
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+  action-bar:
+    singular: "&cNeked {0} másodperc van a {login/register}."
+    plural: "&cNeked {0} másodperc van a {login/register}."
+  delay-kick:
+    register-kick: "&cNem sikerült beregisztrálni megadott időn belül!"
+    login-kick: "&cNem sikerült belépni megadott időn belül!"
+  successful-operations:
+    password-changed: "&aJelszavadat sikeresen megváltoztattuk!"
+    successful-login: "&aSikeresen beléptél!"
+    successful-session-login: "&aA bejelentkezésedet folytattuk."
+    successful-premium-login: "&aAutomatikusan beléptettünk tégedet!"
+    successful-bedrock-login: "&aÖn automatikusan bejelentkezik, mivel egy Bedrock-fiókból lép be."
+    successful-register: "&aSikeresen beregisztráltál."
+    forcelogin: "&eBeléptette: {0}"
+    unregister-kick: "&cSikeresen törölte a jelszavadat!"
+    config-finished: "&aKonfigfájlok sikeresen elkészültek!"
+    config-cancelled: "&cAkció visszavonva!"
+  kick-messages:
+    nick-already-registered: "&cEzt a nevet nem lehet megadni! {0}&r\n&r&cEzt a felhasználónévet már regisztráltuk {1}&r\n&r\n&r&cA belépéshez a becenevedet nagybetű / kisbetű nélkül kell használni!"
+    failed-many-times: "&cHelytelenül adtad meg a jelszavadat!"
+    incorrect-password: "&cHelytelen jelszó. Kérlek próbáld újra!"
+    incorrect-answer: "&cHelytelen válasz. Kérlek próbáld újra!"
+    wait-server-start: "&cA szerver nem indult el még teljesen.\n&cVárj egy kicsit a csatlakozáshoz."
+    account-blocked: "&cCímedet blokkolták a szerveren!&r\n&r&cFentmaradt várakozási idő: {0}"
+    invalid-nickname: "&cTe neved hibás, ne tartalmazzon más szimbólumokat karaktereket!"
+    cracked-switch: "&7Your account has been marked as &6cracked&7. Please rejoin."
+  security-messages:
+    hacking-attack-warning:
+      - ""
+      - " &c&lBIZTONSÁGI ÉRTESíTÉS"
+      - " &cA biztonsági rendszer blokkolta az esetleges feltörési támadásokat a fiókjában."
+      - " &cHárom sikertelen bejelentkezési kísérlet történt."
+      - ""
+      - " &e&lTIP: &eÉrdemes minden szerverre más jelszót használni!"
+      - ""
+    hacking-attack-warning2:
+      - ""
+      - " &c&lBIZTONSÁGI ÉRTESíTÉS"
+      - " &cA biztonsági rendszer le van tiltva {0} esetleges hackelési támadások a fiókjában."
+      - " &cHárom sikertelen bejelentkezési kísérlet történt."
+      - ""
+      - " &e&lTIP: &eÉrdemes minden szerverre más jelszót használni!"
+      - ""
+    weak-password:
+      - ""
+      - " &cA regisztrált jelszó nem biztonságos."
+      - " &cHasználjon betűket, számokat és szimbólumokat a biztonság javítása érdekében."
+      - " &cPélda jelszóra: {0}"
+      - ""
+    security-question-warn-message:
+      - ""
+      - " &c&lBIZTONSÁGI KÉRDÉSEK"
+      - " &7Hajtsa végre a &f/2fa squestion add &7parancsot a regisztrációhoz."
+      - " &cbiztonsági kérdéseket és ezzel"
+      - " &7csökkentse a feltörés esélyét."
+      - ""
+    security-question-add:
+      - ""
+      - " &e{0}"
+      - ""
+      - " &7Segítségért &f'cancel' &7hogy törölje a műveletet."
+      - " &Kattintson erre az üzenetre egy újabb kérdést kapjon előállításához."
+      - ""
+    security-question-check:
+      - ""
+      - " &aA megerősítés előtt ellenőrizze az információkat:"
+      - ""
+      - " &7{0}: &f'{1}'"
+      - ""
+      - " &aHa biztos benne, írja be &f'confirm'&a."
+      - " &eHa valamit rosszul írt be, írja be &f'repeat'&e."
+      - " &cHa meg akarja szakítani ezt a műveletet, írja be &f'cancel'&c."
+      - ""
+    security-question-request:
+      - ""
+      - " &aSajnáljuk, de személyazonosság-megerősítés szükséges."
+      - " &aVálaszoljon az alábbi kérdésre a csevegésben:"
+      - ""
+      - " &b{0}"
+      - ""
+    security-question-request2:
+      - "&aKövetkező kérdés..."
+      - ""
+      - " &b{0}"
+      - ""
+  error-messages:
+    already-login: "&cTe már be vagy lépve."
+    already-login2: "&cEz a felhasználó már be van jelentkezve."
+    already-registered: "&cEzt a nevet már regisztrálták."
+    not-registered: "&cEzt a nevet még nem regisztrálták."
+    no-temporary-code: "&cIdeiglenes jelszó még nem lett létrehozva."
+    incorrect-code: "&cRossz jelszó. Kérlek, próbáld meg újra."
+    passwords-dont-match: "&cA jelszavak nem azonosak."
+    need-password-confirmation: "&cMeg kell erősítenie jelszavát."
+    address-limiter-warning: "&cElérted a felhasználódnak az ip limitjét!"
+    rate-limit: "&cLimit exceeded. Please wait {0} minutes to try again."
+    password-same-as-old: "&cA megadott jelszó megegyezik a jelenlegi jelszóval."
+    password-too-large: "&cA megadott jelszó túl nagy."
+    password-too-small: "&cA megadott jelszó túl kicsi."
+    plugman-block: "&cItt nem érheti meg a bejelentkezési bővítményt."
+    insufficient-permissions: "&cNincs jogod ehez!"
+    command-usage: "&cHasználnia kell {0}."
+    already-online: "&cEz a játékos már fent van."
+    offline-error: "&cEz a játékos offline."
+    player-command-usage: "&cEzt a parancsot a konzolon keresztül letiltották."
+    console-command-usage: "&cEz a parancs csak a konzolon keresztül használható."
+    plugin-reload-message: "&eFájlok újratöltve."
+    command-function-disabled: "&cA {0} parancs funkciója le van tiltva."
+    database-error: "&cSajnos nem tudtuk befejezni ezt a műveletet. Kérlek próbáld újra. [SQL FAIL]"
+  notifications:
+    all-viewed: "&aMinden értesítés megtekintésre került."
+    notify-after: "&eEz az értesítés {0} perc múlva újra elküldésre kerül."
+    notify-buttons: "[&aOlvasás megerősítése//&8Emlékeztessen később]"
+    notify-buttons-hover: "[&7Kattintson erre az értesítés olvasottként való megjelöléséhez.//&7Kattintson erre a gombra, ha később szeretne emlékezni erre az értesítésre.]"
+  twofactor:
+    no-twofactor-registered: "&cNincs {0} -fiókod."
+    twofactor-already-registered: "&cMár regisztrálta a következőt: {0}."
+    twofactor-register-limit: "&cÖn kimerítette az azonos {0} fiókok limitjét."
+    twofactor-unregistered: "&eA(z) {0} szolgáltatást sikeresen leválasztottuk"
+    confirmed-account: "&a{0} -fiókját sikeresen regisztráltuk"
+    confirmation-message-sent: "&7Megerősítő kódot küldtünk Önnek &6{0}&7.\n&8(&f{1}&8)."
+    check-message: "&aCheck the message sent to your associated account."
+    command-delay: "&cWait a while before executing this command again."
+    help-command:
+      - ""
+      - " &fStatus: [&a{2} registered//&c{2} not registered]&f."
+      - ""
+      - " [&a■ &7/{0} add: &fRegister your {1}.]"
+      - " [&a■ &7/{0} remove: &fRemove your {1}.]"
+      - " [&a■ &7/{0} recover: &fRecover your account.]"
+      - " [&a■ &7/{0} twofactor: &fEnables/disables the two-factor.]"
+      - ""
+    switch:
+      enabled: "&aA kétfaktoros funkció aktiválódott."
+      disabled: "&cA kétfaktoros funkció kikapcsolva."
+    recover:
+      twofactor-not-equal: "&cA megadott {0} nem ugyanaz, mint a regisztrált."
+      message-sent: "&aHelyreállítási üzenetet küldtünk a társított fiókjába."
+      automatic-change: "&aJelszavát automatikusan megváltoztatta &ferre '{0}'."
+    security-questions:
+      no-question-registered: "&cYou have not yet registered any security questions."
+      invalid-question-id: "&cThe id entered is not valid or is less than or equal to zero."
+      question-does-not-exists: "&cThe question with the id {0} does not exist."
+      question-deleted: "&aThe question with the id {0} has been successfully removed."
+      max-questions: "&cYou have exhausted the limit of security questions allowed on this server."
+      min-questions-recover: "&cYou need to have at least 3 questions registered to recover your account."
+      help-command:
+        - ""
+        - " &fStatus: [&cNo questions registered//&a{1} question registered//&a{1} questions registered]&f."
+        - ""
+        - " [&a■ &7/{0} add: &fRegister a question.]"
+        - " [&a■ &7/{0} remove <id>: &fRemoves a question.]"
+        - " [&a■ &7/{0} list: &fLists your questions.]"
+        - " [&a■ &7/{0} recover: &fRecovers your account.]"
+        - ""
+    discord:
+      confirm-account:
+        - ""
+        - " &7To complete the linking, you need to confirm your Discord account."
+        - " &7Join to &b{0} &7and type "
+        - " &7the command in the DM of the &f{1} &7bot."
+        - ""
+        - " [&aClick here to get the command with the token.]"
+        - ""
+      account-linked: "&aA Discord konfigurációja sikeresen frissítve. \N &aCsatlakoztak a&f {0} &aaccount fiókhoz."
+      verify-message:
+        title: "A jelszavát létrehoztuk"
+        description: "Az nLogin rendszere megerősítő jelszót generált a @player fiókhoz."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Parancs->A hitelesítéshez használja a parancsot '/2fa discord @code'."
+      recover-message:
+        title: "Jelszó-helyreállítást kértünk."
+        description: "Jelszó-visszaállítási kérelmet kértek a @player.\nHa nem te voltál, kattints az X reakcióra a hozzáférés blokkolásához."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Probléma?->Probléma esetén használja a '/2fa discord <new password> @code' command."
+      suspect-access:
+        title: "Gyanús tevékenység a @player fiókban."
+        description: "Gyanús bejelentkezést észleltünk a @player fiókban."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Hozzáférési adatok-> A kísérlet dátuma: @data @hora"
+          - "Hozzáférési információk-> IP-cím: @address"
+          - "A lehetséges betolakodót betiltották-> A fiók IP címét ideiglenesen betiltották invázió gyanúja miatt."
+      warn-message:
+        - ""
+        - " &7A regisztrációhoz hajtsa végre a & f/2fa discord Associate &7parancsot"
+        - " &7az &cdiscord &7. Ezáltal te"
+        - " &7csökkentse a feltörés esélyét."
+        - ""
+      sync-message:
+        invalid-code:
+          title: "***Sign up your Discord***"
+          description: "Sorry, but the token you entered is invalid or does not exist."
+          image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+          fields: []
+        success:
+          title: "***Sign up your Discord***"
+          description: "Your Discord was successfully registered."
+          image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+          fields: []
+      change-address:
+        - ""
+        - "&aSajnos, de a személyazonosság igazolása szükséges."
+        - "&egy biztonsági kódot elküldtünk a regisztrált nézeteltérésednek."
+        - "&aHitelesítse magát a /2fa discord <küldött kód> paranccsal."
+        - "&aHa rosszul kapja meg a jelszót, vagy kijelentkezik, új kód jön létre."
+        - ""
+    twitter:
+      invalid-account: "&cThe entered twitter is invalid."
+      server-twitter: "&cYou cannot use the server's twitter."
+      configure-message:
+        - "Az nLogin rendszere ideiglenes jelszót generált a @player fiókhoz."
+        - ""
+        - "A fiók megerősítéséhez használja a '/2fa twitter @code' parancsot."
+        - "Ha nem te voltál, hagyd figyelmen kívül ezt az üzenetet."
+      verify-message:
+        - "Az nLogin rendszere megerősítő jelszót generált a @player fiókhoz."
+        - ""
+        - "A hitelesítéshez használja a '/2fa twitter @code' parancsot."
+        - "Ha nem te voltál, AZONNAL cseréld meg a jelszavad."
+      recover-message:
+        - "A fiók helyreállításához használja a /2fa twitter <új jelszó> @code parancsot"
+        - ""
+        - "Ha nem te voltál, hagyd figyelmen kívül ezt az üzenetet."
+      suspect-access:
+        - "Az nLogin rendszere gyanús tevékenységet észlelt az Ön @player fiókjában."
+        - ""
+        - "A kísérlet dátuma: @data @hora"
+        - ""
+        - "A fiók IP címét ideiglenesen tiltották behatolás gyanúja miatt."
+      warn-message:
+        - ""
+        - "&7Végezze el a & f/2fa twitter társított és a &7 regisztráció parancsot"
+        - "&7 a &ctwitter&7. Ezáltal te"
+        - "&7csökkentsd a feltörés esélyét."
+        - ""
+      change-address:
+        - ""
+        - "&aSajnos, de a személyazonosság igazolása szükséges."
+        - "és aa biztonsági kódot elküldtük a regisztrált Twitter-fiókjába."
+        - "&aHitelesítéshez használja a /2fa twitter parancsot <küldött kód>."
+        - "&aHa rosszul kapja meg a jelszót, vagy kijelentkezik, új kód jön létre."
+        - ""
+        - "&7Ne feledd, hogy követed a &7@twitter_sv &7és nem twittert."
+        - ""
+    email:
+      invalid-account: "&cThe entered email is invalid."
+      server-email: "&cYou cannot use the server's email."
+      configure-message:
+        subject: "A @player fiók megerősítése"
+        content:
+          - "<h1>"
+          - " Szia, @player!"
+          - "</h1>"
+          - "<p>"
+          - " Az e-mail regisztráció befejezéséhez használja a parancsot <strong>\"/2fa email @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " Ha nem te voltál, hagyd figyelmen kívül ezt az üzenetet."
+          - "</p>"
+      verify-message:
+        subject: "A @player fiók bejelentkezési megerősítése"
+        content:
+          - "<h1>"
+          - " Szia, @player!"
+          - "</h1>"
+          - "<p>"
+          - " A kiszolgálón történő hitelesítéshez használja a parancsot <strong>\"/2fa email @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " Ha nem te voltál, akkor változtasd meg a jelszavad <strong>IMMEDIATELY</strong>."
+          - "</p>"
+      recover-message:
+        subject: "A @player fiók visszaállítása"
+        content:
+          - "<h1>"
+          - " Szia, @player!"
+          - "</h1>"
+          - "<p>"
+          - " A fiók helyreállításához használja a parancsot <strong>\"/2fa email <new password> @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " Ha nem te voltál, hagyd figyelmen kívül ezt az üzenetet."
+          - "</p>"
+      suspect-access:
+        subject: "Gyanús tevékenység a @player fiókon"
+        content:
+          - "<h1>"
+          - " Szia, @player!"
+          - "</h1>"
+          - "<p>"
+          - " Az nLogin rendszere gyanús tevékenységet észlelt a fiókjában."
+          - "</p>"
+          - "<p>"
+          - "<strong>A kísérlet dátuma:</strong> @data @hora"
+          - "</p>"
+          - "<p>"
+          - "Az IP-címet ideiglenesen betiltották az invázió gyanúja miatt."
+          - "</p>"
+      warn-message:
+        - ""
+        - "&7A regisztrációhoz hajtsa végre a & f / email társított & 7 parancsot"
+        - "&7 a &c cemailed &7. Ezáltal te"
+        - "&7csökkentse a feltörés esélyét."
+        - ""
+      require-email:
+        - ""
+        - " &7Az aktuális kiszolgáló a hitelesítés befejezéséhez"
+        - " &aérvényes e-mail &7cím megadása szükséges."
+        - ""
+        - " &aKérjük, adja meg az e-mail címét a csevegésben."
+        - ""
+      change-address:
+        - ""
+        - "&a Sajnáljuk, de a személyazonosság igazolása szükséges."
+        - "és a biztonsági kódot elküldtük az Ön regisztrált e-mail címére."
+        - "&aHitelesítéshez használja a command / email <küldött kód> parancsot."
+        - "&a Ha rosszul kapja meg a jelszót, vagy kijelentkezik, új kód jön létre."
+        - ""
+  premium-login:
+    question:
+      - ""
+      - " &ePrémium fiókot használ?"
+      - " &7(az elfogadás után újra be kell lépnie.)"
+      - ""
+      - "[&aIgen//&cNem]"
+      - ""
+    already-premium: "&cYour account is already marked as premium."
+    challenge-kick: "&7To confirm that you are using a &apremium account&7, please log in again."
+  bedrock:
+    forms:
+      login:
+        title: "Authentication"
+        content:
+          - "Welcome, @player!"
+          - "To log in, please enter your password in the field below:"
+          - ""
+          - "[Password//Enter your password]"
+          - ""
+      register:
+        title: "Register"
+        content:
+          - "Welcome, @player!"
+          - "To play on the server, you need to create a password."
+          - "Please enter the desired password in the field below."
+          - ""
+          - "[Password//Enter your password]"
+          - "[Confirmation//Confirm your password]"
+          - ""
+  other-messages:
+    login-usage-hover: "&7Kattintson ide a parancs végrehajtásához és a gyors bejelentkezéshez."
+    register-usage-hover: "&7Kattintson ide a parancs végrehajtásához és a gyors regisztrációhoz."
+    login-usage: "&eHasználd ezt a parancsot &7/login <jelszó>&e."
+    register-usage: "&eHasználd ezt a parancsot &7/register <jelszó> <jelszó>&e."
+    changepassword-usage: "&eHasználd ezt a parancsot &7/changepassword <régi jelszó> <új jelszó>&e."
+    unregister-usage: "&eHasználd ezt a parancsot &7/unregister <aktuális jelszó>&e."
+    premium-usage: "&eUse the command &7/premium <current password>&e."
+    cracked-usage: "&eUse the command &7/cracked <current password>&e."
+    language-selector:
+      - ""
+      - " &7Azt észleltük, hogy Ön a &f{0} &enyelvet használja&7."
+      - ""
+      - " &eSzeretné megváltoztatni az nLogin nyelvet?"
+      - ""
+      - "[&aIgen//&cNem]"
+      - ""

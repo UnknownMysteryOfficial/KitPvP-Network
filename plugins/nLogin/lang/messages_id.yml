@@ -1,0 +1,504 @@
+####################################################################################################
+# +----------------------------------------------------------------------------------------------+ #
+# |                                          __             _                                    | #
+# |                                 _ __   / /  ___   __ _(_)_ __                                | #
+# |                                | '_ \ / /  / _ \ / _` | | '_ \                               | #
+# |                                | | | / /__| (_) | (_| | | | | |                              | #
+# |                                |_| |_\____/\___/ \__, |_|_| |_|                              | #
+# |                                                    |___/                                     | #
+# |                                                                                              | #
+# |                      Plugin otentikasi yang praktis, aman, dan ramah                         | #
+# |                                                                                              | #
+# |                            © 2022 - Diberdayakan oleh nickuc.com                             | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |  Opsi baru tidak secara otomatis ditambahkan dalam file ini. Nilai default digunakan         | #
+# |  jika opsi tidak ditemukan.                                                                  | #
+# |                                                                                              | #
+# |  ID: Ditejemahkan oleh: Faiq, くん#8455 | EN: Translated by: Faiq, くん#8455                  | #
+# |  ID: Terjemahan ini tidak 100% akurat  | EN: This translation is not 100% accurate           | #
+# +----------------------------------------------------------------------------------------------+ #
+####################################################################################################
+
+Messages:
+  Title:
+    before-login:
+      title: "&a&lSELAMAT DATANG!!"
+      subtitle: "&7Ketik: /login <password kamu>"
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+    before-register:
+      title: "&a&lSELAMAT DATANG!"
+      subtitle: "&7Ketik: /register <password kamu> <password kamu>"
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+    after-login:
+      title: ""
+      subtitle: "&aAnda telah berhasil login!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    after-register:
+      title: ""
+      subtitle: "&aAnda telah berhasil mendaftar!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    incorrect-password:
+      title: ""
+      subtitle: "&cKata sandi salah!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    already-login:
+      title: ""
+      subtitle: "&cAnda sudah masuk!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    already-registered:
+      title: ""
+      subtitle: "&cAnda sudah terdaftar!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    passwords-dont-match:
+      title: ""
+      subtitle: "&cKata sandi tidak sama!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    session-login:
+      title: ""
+      subtitle: "&eSesi login anda telah dilanjutkan."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    premium-login:
+      title: ""
+      subtitle: "&eAkun anda unik, berhasil masuk."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    bedrock-login:
+      title: ""
+      subtitle: "&eMengakses melalui Bedrock, berhasil login."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    plugin-reload:
+      title: ""
+      subtitle: "&aFile konfigurasi dan bahasa telah dimuat ulang."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    backup:
+      title: ""
+      subtitle: "&aPencadangan berhasil dilakukan."
+      delays:
+        start: 2
+        duration: 90
+        end: 6
+    backup-error:
+      title: ""
+      subtitle: "&cTidak dapat melakukan pencadangan."
+      delays:
+        start: 2
+        duration: 90
+        end: 6
+    security-warning:
+      title: ""
+      subtitle: "&cPeringatan keamanan baru telah dikirim dalam obrolan"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    answer-required:
+      title: ""
+      subtitle: "&eTolong jawab pertanyaan yang dikirim di chat."
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+  action-bar:
+    singular: "&cKamu punya waktu {0} detik untuk {login/register}."
+    plural: "&cKamu punya waktu {0} detik untuk {login/register}."
+  delay-kick:
+    register-kick: "&cAnda terlalu lama untuk mendaftar."
+    login-kick: "&cAnda terlalu lama untuk login."
+  successful-operations:
+    password-changed: "&aKata sandi anda berhasil diubah."
+    successful-login: "&aAnda telah berhasil login."
+    successful-session-login: "&aSesi login anda telah dilanjutkan."
+    successful-premium-login: "&aAnda secara otomatis masuk karena akun anda unik."
+    successful-bedrock-login: "&aAnda secara otomatis masuk, karena anda mengakses dari akun Bedrock."
+    successful-register: "&aAnda telah berhasil mendaftar."
+    forcelogin: "&eAnda telah memaksa login {0}"
+    unregister-kick: "&aAnda telah berhasil membatalkan pendaftaran."
+    config-finished: "&aKonfigurasi selesai."
+    config-cancelled: "&cTindakan dibatalkan."
+  kick-messages:
+    nick-already-registered: "&cAnda tidak dapat masuk dengan nama {0}&r\n&r&cNama pengguna ini telah terdaftar sebagai {1}&r\n&r\n&r&cUntuk masuk, Anda harus menggunakan nama panggilan Anda tanpa huruf besar/kecil"
+    failed-many-times: "&cAnda memasukkan kata sandi yang salah."
+    incorrect-password: "&cKata sandi salah. Tolong, coba lagi."
+    incorrect-answer: "&cJawaban salah. Tolong coba lagi."
+    wait-server-start: "&cServer belum dinyalakan dengan baik.\n&cTunggu beberapa saat untuk terhubung."
+    account-blocked: "&cAlamat anda telah diblokir oleh dugaan invasi.&r\n&r&cSisa waktu pembuangan: {0}"
+    invalid-nickname: "&cNama panggilan Anda tidak valid, hapus spasi, simbol, dan karakter yang tidak valid dari nama Anda."
+    cracked-switch: "&7Akun anda telah ditandai sebagai &6cracked&7. Tolong masuk lagi."
+  security-messages:
+    hacking-attack-warning:
+      - ""
+      - " &c&lPERINGATAN KEAMANAN"
+      - " &cSistem keamanan telah memblokir kemungkinan serangan peretasan pada akun Anda."
+      - " &cTiga upaya login yang gagal dilakukan."
+      - ""
+      - " &e&lTIPS: &eSelalu gunakan kata sandi yang berbeda dari server lain."
+      - ""
+    hacking-attack-warning2:
+      - ""
+      - " &c&lPERINGATAN KEAMANAN"
+      - " &cSistem keamanan telah memblokir {0} kemungkinan serangan peretasan pada akun Anda."
+      - " &cTiga upaya login yang gagal dilakukan."
+      - ""
+      - " &e&lTIPS: &eSelalu gunakan kata sandi yang berbeda dari server lain."
+      - ""
+    weak-password:
+      - ""
+      - " &cKata sandi yang terdaftar dianggap tidak aman."
+      - " &cGunakan huruf, angka, dan simbol untuk meningkatkan keamanan."
+      - " &cContoh kata sandi: {0}"
+      - ""
+    security-question-warn-message:
+      - ""
+      - " &c&lSECURITY QUESTIONS"
+      - " &7Perform the command &f/2fa squestion add &7to register your"
+      - " &csecurity questions&7. Dengan melakukan itu, kamu"
+      - " &7mengurangi kemungkinan diretas."
+      - ""
+    security-question-add:
+      - ""
+      - " &e{0}"
+      - ""
+      - " &7Ketik &f'cancel' &7untuk membatalkan operasi."
+      - " &7Klik pesan ini untuk menghasilkan pertanyaan yang lain."
+      - ""
+    security-question-check:
+      - ""
+      - " &aSebelum mengonfirmasi, periksa kembali informasinya:"
+      - ""
+      - " &7{0}: &f'{1}'"
+      - ""
+      - " &aJika anda yakin, ketik &f'confirm'&a."
+      - " &eJika anda memasukkan sesuatu yang salah, ketik &f'repeat'&e."
+      - " &cJika anda ingin membatalkan operasi ini, ketik &f'cancel'&c."
+      - ""
+    security-question-request:
+      - ""
+      - " &aMaaf, tapi konfirmasi identitas diperlukan."
+      - " &aJawab pertanyaan yang ada di chat:"
+      - ""
+      - " &b{0}"
+      - ""
+    security-question-request2:
+      - "&aPertanyaan selanjutnya..."
+      - ""
+      - " &b{0}"
+      - ""
+  notifications:
+    all-viewed: "&aSemua notifikasi telah dilihat."
+    notify-after: "&eNotifikasi ini akan dikirim lagi setelah {0} menit."
+    notify-buttons: "[&aKonfirmasi telah dibaca//&8Ingatkan nanti]"
+    notify-buttons-hover: "[&7Klik untuk menandai pemberitahuan ini sebagai telah dibaca.//&7Klik untuk mengingat notifikasi ini nanti.]"
+  error-messages:
+    already-login: "&cAnda sudah masuk."
+    already-login2: "&cPemain ini sudah login."
+    already-registered: "&cNama panggilan ini sudah terdaftar."
+    not-registered: "&cNama panggilan ini belum terdaftar."
+    no-temporary-code: "&cKode sementara belum dibuat."
+    incorrect-code: "&cKode salah, Silahkan coba lagi."
+    passwords-dont-match: "&cKata sandi tidak sama."
+    need-password-confirmation: "&cAnda harus mengkonfirmasi kata sandi Anda."
+    address-limiter-warning: "&cAnda telah mencapai batas akun per ip."
+    rate-limit: "&cBatas terlampaui, Mohon tunggu {0} menit untuk mencoba lagi."
+    password-same-as-old: "&cKata sandi yang dimasukkan sama dengan saat ini."
+    password-too-large: "&cKata sandi yang dimasukkan terlalu besar."
+    password-too-small: "&cKata sandi yang dimasukkan terlalu kecil."
+    plugman-block: "&cAnda tidak dapat menyentuh plugin login di sini."
+    insufficient-permissions: "&cAnda tidak memiliki izin untuk menjalankan perintah ini."
+    command-usage: "&cAnda harus menggunakan {0}."
+    already-online: "&cPemain ini sudah online."
+    offline-error: "&cPemain yang diinginkan sedang offline."
+    player-command-usage: "&cPerintah ini telah dinonaktifkan melalui konsol."
+    console-command-usage: "&cPerintah ini hanya dapat dijalankan melalui konsol."
+    plugin-reload-message: "&ePlugin telah berhasil dimuat ulang."
+    command-function-disabled: "&cFungsi dari perintah {0} dinonaktifkan."
+    database-error: "&cMaaf, kami tidak dapat menyelesaikan operasi ini. Silakan coba lagi. [SQL GAGAL]"
+  twofactor:
+    no-twofactor-registered: "&cAnda tidak memiliki {0} akun."
+    twofactor-already-registered: "&cAnda sudah mendaftarkan keamanan tambahan {0}."
+    twofactor-register-limit: "&cAnda telah melewati batas akun dengan {0} yang sama."
+    twofactor-unregistered: "&eAkun {0} Anda berhasil dipisahkan"
+    confirmed-account: "&aAkun {0} Anda telah berhasil didaftarkan"
+    confirmation-message-sent: "&7Kode konfirmasi telah dikirim ke &6{0} &7Anda.\n&8(&f{1}&8)."
+    check-message: "&aPeriksa pesan yang dikirim ke akun terkait Anda."
+    command-delay: "&cTunggu beberapa saat sebelum menjalankan perintah ini lagi."
+    help-command:
+      - ""
+      - " &fStatus: [&a{2} Terdaftar//&c{2} Todak terdaftar]&f."
+      - ""
+      - " [&a■ &7/{0} add: &fDaftarkan {1} Anda.]"
+      - " [&a■ &7/{0} remove: &fHapus {1} Anda.]"
+      - " [&a■ &7/{0} recover: &fPulihkan akun Anda.]"
+      - " [&a■ &7/{0} twofactor: &fMengaktifkan/menonaktifkan two-factor.]"
+      - ""
+    switch:
+      enabled: "&aFitur two-factor telah diaktifkan."
+      disabled: "&cFitur two-factor telah dinonaktifkan."
+    recover:
+      twofactor-not-equal: "&c{0} yang diberikan tidak sama dengan yang terdaftar."
+      message-sent: "&aPesan pemulihan telah dikirim ke akun terkait Anda."
+      automatic-change: "&aKata sandi Anda secara otomatis diubah menjadi &f'{0}'&a."
+    security-questions:
+      no-question-registered: "&cAnda belum mendaftarkan pertanyaan keamanan apa pun."
+      invalid-question-id: "&cId yang dimasukkan tidak valid atau kurang dari atau sama dengan nol."
+      question-does-not-exists: "&cPertanyaan dengan id {0} tidak ada."
+      question-deleted: "&aPertanyaan dengan id {0} telah berhasil dihapus."
+      max-questions: "&cAnda telah kehabisan batas pertanyaan keamanan yang diizinkan di server ini."
+      min-questions-recover: "&cAnda harus memiliki setidaknya 3 pertanyaan yang terdaftar untuk memulihkan akun Anda."
+      help-command:
+        - ""
+        - " &fStatus: [&cTidak ada pertanyaan yang terdaftar//&a{1} Pertanyaan terdaftar//&a{1} Pertanyaan terdaftar]&f."
+        - ""
+        - " [&a■ &7/{0} add: &fDaftarkan pertanyaan.]"
+        - " [&a■ &7/{0} remove <id>: &fMenghapus pertanyaan.]"
+        - " [&a■ &7/{0} list: &fDaftar pertanyaan Anda.]"
+        - " [&a■ &7/{0} recover: &fMemulihkan akun Anda.]"
+        - ""
+    discord:
+      confirm-account:
+        - ""
+        - " &7Untuk menyelesaikan penautan, Anda perlu mengonfirmasi akun Discord Anda."
+        - " &7Gabung ke &b{0} &7dan ketik "
+        - " &7perintah di DM bot &f{1}"
+        - ""
+        - " [&aKlik di sini untuk mendapatkan perintah dengan token.]"
+        - ""
+      account-linked: "&aKonfigurasi di Discord berhasil diperbarui.\n&aAnda telah ditautkan dengan akun &f{0}"
+      verify-message:
+        title: "Kata sandi Anda telah dibuat"
+        description: "Sistem nLogin menghasilkan kata sandi konfirmasi baru untuk akun @player."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Command->Untuk mengautentikasi, gunakan perintah '/2fa discord @code'."
+      recover-message:
+        title: "Pemulihan kata sandi diminta."
+        description: "Permintaan pemulihan kata sandi telah diminta untuk @player.\nJika bukan Anda, klik reaksi X untuk memblokir akses."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Problems?->Jika ada masalah, gunakan perintah '/2fa discord <new password> @code'"
+      suspect-access:
+        title: "Aktivitas mencurigakan di akun @player"
+        description: "nLogin mencurigakan telah terdeteksi di akun @player."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Access data->Tanggal percobaan: @data @hora"
+          - "Access Information->Alamat IP: @address"
+          - "The possible invader has been banned->Alamat IP di akun ini telah diblokir sementara karena dicurigai melakukan invasi."
+      warn-message:
+        - ""
+        - " &7Lakukan perintah &f/2fa discord associate &7untuk mendaftarkan"
+        - " &cdiscord&7 &7anda. Dengan melakukan itu, kamu"
+        - " &7mengurangi kemungkinan diretas."
+        - ""
+      sync-message:
+        invalid-code:
+          title: "***Daftarkan Discord Anda***"
+          description: "Maaf, token yang Anda masukkan tidak valid atau tidak ada."
+          image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+          fields: []
+        success:
+          title: "***Daftarkan Discord Anda***"
+          description: "Discord Anda berhasil didaftarkan."
+          image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+          fields: []
+      change-address:
+        - ""
+        - "&aMaaf, tapi konfirmasi identitas diperlukan."
+        - "&aKode keamanan telah dikirim ke ketidaksetujuan Anda yang terdaftar."
+        - "&aGunakan perintah /2fa discord <sent code> untuk mengotentikasi diri sendiri."
+        - "&aJika Anda salah memasukkan kata sandi atau keluar, kode baru akan dibuat."
+        - ""
+    twitter:
+      invalid-account: "&cTwitter yang dimasukkan tidak valid."
+      server-twitter: "&cAnda tidak dapat menggunakan twitter server."
+      configure-message:
+        - "Sistem nLogin menghasilkan kata sandi sementara untuk akun @player."
+        - ""
+        - "Untuk mengkonfirmasi akun Anda, gunakan perintah '/2fa twitter @code'."
+        - "Jika bukan Anda, abaikan pesan ini."
+      verify-message:
+        - "Sistem nLogin telah menghasilkan kata sandi konfirmasi untuk akun @player."
+        - ""
+        - "Untuk mengautentikasi, gunakan perintah '/2fa twitter @code'."
+        - "Jika bukan Anda, ubah kata sandi Anda SEGERA."
+      recover-message:
+        - "Untuk memulihkan akun Anda, gunakan perintah /2fa twitter <kata sandi baru> @code"
+        - ""
+        - "Jika bukan Anda, abaikan pesan ini."
+      suspect-access:
+        - "Sistem nLogin telah mendeteksi aktivitas mencurigakan di akun @player Anda."
+        - ""
+        - "Tanggal percobaan: @data @hora"
+        - ""
+        - "Alamat ip di akun ini telah diblokir sementara karena dicurigai adanya penyusupan."
+      warn-message:
+        - ""
+        - " &7Lakukan perintah &f/2fa twitter associate &7untuk mendaftarkan"
+        - " &ctwitter&7 anda. Dengan melakukan itu, kamu"
+        - " &7mengurangi kemungkinan diretas."
+        - ""
+      change-address:
+        - ""
+        - "&aMaaf, tapi konfirmasi identitas diperlukan."
+        - "&aKode keamanan telah dikirim ke akun Twitter Anda yang terdaftar."
+        - "&aGunakan perintah twitter /2fa <sent code> untuk mengautentikasi."
+        - "&aJika Anda salah memasukkan kata sandi atau keluar, kode baru akan dibuat."
+        - ""
+        - "&7Ingatlah untuk mengikuti &f@twitter_sv &7bukan twitter."
+        - ""
+    email:
+      invalid-account: "&cEmail yang dimasukkan tidak valid."
+      server-email: "&cAnda tidak dapat menggunakan email server."
+      configure-message:
+        subject: "Konfirmasi akun @player"
+        content:
+          - "<h1>"
+          - " Halo, @player!"
+          - "</h1>"
+          - "<p>"
+          - " Untuk menyelesaikan proses pendaftaran email Anda, gunakan perintah <strong>\"/2fa email @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " Jika itu bukan Anda, abaikan pesan ini."
+          - "</p>"
+      verify-message:
+        subject: "Konfirmasi login akun @player"
+        content:
+          - "<h1>"
+          - " Halo, @player!"
+          - "</h1>"
+          - "<p>"
+          - " Untuk mengautentikasi di server, gunakan perintah <strong>\"/2fa email @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " Jika bukan Anda, ubah kata sandi Anda <strong>SEGERA</strong>."
+          - "</p>"
+      recover-message:
+        subject: "Memulihkan akun @player"
+        content:
+          - "<h1>"
+          - " Halo, @player!"
+          - "</h1>"
+          - "<p>"
+          - " Untuk memulihkan akun Anda, gunakan perintah <strong>\"/2fa email <new password> @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " Jika itu bukan Anda, abaikan pesan ini."
+          - "</p>"
+      suspect-access:
+        subject: "Aktivitas mencurigakan di akun @player"
+        content:
+          - "<h1>"
+          - " Halo, @player!"
+          - "</h1>"
+          - "<p>"
+          - " Sistem nLogin mendeteksi aktivitas mencurigakan di akun Anda."
+          - "</p>"
+          - "<p>"
+          - "<strong>Tanggal percobaan:</strong> @data @hora"
+          - "</p>"
+          - "<p>"
+          - "Alamat ip telah dilarang sementara karena dicurigai melakukan invasi."
+          - "</p>"
+      warn-message:
+        - ""
+        - " &7Lakukan perintah &f/2fa email associate &7untuk mendaftarkan"
+        - " &9email&7 anda. Dengan melakukan itu, kamu"
+        - " &7mengurangi kemungkinan diretas."
+        - ""
+      require-email:
+        - ""
+        - " &7Server saat ini mengharuskan Anda memasukkan"
+        - " &aalamat email yang valid &7untuk menyelesaikan otentikasi."
+        - ""
+        - " &aSilakan masukkan alamat email Anda di chat."
+        - ""
+      change-address:
+        - ""
+        - "&a Maaf, tapi konfirmasi identitas diperlukan."
+        - "&aKode keamanan telah dikirim ke alamat email terdaftar Anda."
+        - "&aGunakan perintah /2fa email <sent code> untuk mengautentikasi."
+        - "&aJika Anda salah memasukkan kata sandi atau terkeluar, kode baru akan dibuat."
+        - ""
+  premium-login:
+    question:
+      - ""
+      - " &eApakah Anda menggunakan akun premium??"
+      - " &7(setelah menerima, Anda harus masuk kembali.)"
+      - ""
+      - "[&aIya//&cTidak]"
+      - ""
+    already-premium: "&cAkun Anda sudah ditandai sebagai premium."
+    challenge-kick: "&7Untuk mengonfirmasi bahwa Anda menggunakan &aakun premium&7, silakan masuk kembali."
+  bedrock:
+    forms:
+      login:
+        title: "Autentikasi"
+        content:
+          - "Selamat Datang, @player!"
+          - "Untuk masuk, silakan masukkan kata sandi Anda di bidang di bawah ini:"
+          - ""
+          - "[Kata Sandi//Masukkan Kata Sandi Anda]"
+          - ""
+      register:
+        title: "Register"
+        content:
+          - "Selamat Datang, @player!"
+          - "Untuk bermain di server, Anda perlu membuat kata sandi."
+          - "Silakan masukkan kata sandi yang diinginkan di bidang di bawah ini."
+          - ""
+          - "[Kata Sandi//Masukkan Kata Sandi Anda]"
+          - "[Konfirmasi//Konfirmasi Kata Sandi Anda]"
+          - ""
+  other-messages:
+    login-usage-hover: "&7Klik di sini untuk menyelesaikan perintah dan masuk dengan cepat."
+    register-usage-hover: "&7Klik di sini untuk menyelesaikan perintah dan mendaftar dengan cepat."
+    login-usage: "&eGunakan perintah &7/login <kata sandi>&e."
+    register-usage: "&eGunakan perintah &7/register <kata sandi> <kata sandi>&e."
+    changepassword-usage: "&eGunakan perintah &7/changepassword <kata sandi saat ini> <kata sandi baru>&e."
+    unregister-usage: "&eGunakan perintah &7/unregister <kata sandi saat ini>&e."
+    premium-usage: "&eGunakan perintah &7/premium <kata sandi saat ini>&e."
+    cracked-usage: "&eGunakan perintah &7/cracked <kata sandi saat ini>&e."
+    language-selector:
+      - ""
+      - " &7Kami telah mendeteksi bahwa Anda menggunakan bahasa &f{0}&7."
+      - ""
+      - " &eApakah Anda ingin mengubah bahasa nLogin?"
+      - ""
+      - "[&aIya//&cTidak]"
+      - ""

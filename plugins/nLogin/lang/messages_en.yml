@@ -1,0 +1,501 @@
+####################################################################################################
+# +----------------------------------------------------------------------------------------------+ #
+# |                                          __             _                                    | #
+# |                                 _ __   / /  ___   __ _(_)_ __                                | #
+# |                                | '_ \ / /  / _ \ / _` | | '_ \                               | #
+# |                                | | | / /__| (_) | (_| | | | | |                              | #
+# |                                |_| |_\____/\___/ \__, |_|_| |_|                              | #
+# |                                                    |___/                                     | #
+# |                                                                                              | #
+# |                      A practical, secure and friendly authentication plugin                  | #
+# |                                                                                              | #
+# |                                © 2022 - Powered by nickuc.com                                | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |  New options are not automatically added in this file. Default values are used               | #
+# |  if an option is not found.                                                                  | #
+# +----------------------------------------------------------------------------------------------+ #
+####################################################################################################
+
+Messages:
+  Title:
+    before-login:
+      title: "&a&lWELCOME!"
+      subtitle: "&7Use: /login <your password>"
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+    before-register:
+      title: "&a&lWELCOME!"
+      subtitle: "&7Use: /register <your password> <your password>"
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+    after-login:
+      title: ""
+      subtitle: "&aYou have successfully logged!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    after-register:
+      title: ""
+      subtitle: "&aYou have successfully registered!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    incorrect-password:
+      title: ""
+      subtitle: "&cIncorrect password!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    already-login:
+      title: ""
+      subtitle: "&cYou are already logged in!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    already-registered:
+      title: ""
+      subtitle: "&cYou are already registered!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    passwords-dont-match:
+      title: ""
+      subtitle: "&cPasswords are not the same!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    session-login:
+      title: ""
+      subtitle: "&eYour login session has been continued."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    premium-login:
+      title: ""
+      subtitle: "&eYour account is unique, successfully logged in."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    bedrock-login:
+      title: ""
+      subtitle: "&eAccessing via Bedrock, successfully logged in."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    plugin-reload:
+      title: ""
+      subtitle: "&aThe configuration and language files have been reloaded."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    backup:
+      title: ""
+      subtitle: "&aBackup performed successfully."
+      delays:
+        start: 2
+        duration: 90
+        end: 6
+    backup-error:
+      title: ""
+      subtitle: "&cUnable to perform backup."
+      delays:
+        start: 2
+        duration: 90
+        end: 6
+    security-warning:
+      title: ""
+      subtitle: "&cA new security alert has been sent in the chat"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    answer-required:
+      title: ""
+      subtitle: "&ePlease answer the question sent in the chat."
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+  action-bar:
+    singular: "&cYou have {0} second to {login/register}."
+    plural: "&cYou have {0} seconds to {login/register}."
+  delay-kick:
+    register-kick: "&cYou took too long to register."
+    login-kick: "&cYou took too long to login."
+  successful-operations:
+    password-changed: "&aYour password has been successfully changed."
+    successful-login: "&aYou have successfully logged."
+    successful-session-login: "&aYour login session has been continued."
+    successful-premium-login: "&aYou are automatically logged in as you are using an unique account."
+    successful-bedrock-login: "&aYou are automatically logged in, as you are accessing from a Bedrock account."
+    successful-register: "&aYou have successfully registered."
+    forcelogin: "&eYou have forced the login of {0}"
+    unregister-kick: "&aYou have been successfully unregistered."
+    config-finished: "&aConfiguration finalized."
+    config-cancelled: "&cAction cancelled."
+  kick-messages:
+    nick-already-registered: "&cYou can not enter with the nickname {0}&r\n&r&cThis username has already been registered as {1}&r\n&r\n&r&cTo enter, you must use your nickname without uppercase/lowercase"
+    failed-many-times: "&cYou entered the incorrect password."
+    incorrect-password: "&cIncorrect password. Please, try again."
+    incorrect-answer: "&cIncorrect answer. Please try again."
+    wait-server-start: "&cThe server has not yet started completely.\n&cWait a while to connect."
+    account-blocked: "&cYour address has been blocked by suspected invasion.&r\n&r&cRemaining banishment time: {0}"
+    invalid-nickname: "&cYour nickname is invalid, remove spaces, symbols, and invalid characters from your name."
+    cracked-switch: "&7Your account has been marked as &6cracked&7. Please rejoin."
+  security-messages:
+    hacking-attack-warning:
+      - ""
+      - " &c&lSECURITY ALERT"
+      - " &cThe security system has blocked a possible hacking attack on your account."
+      - " &cThree unsuccessful login attempts were made."
+      - ""
+      - " &e&lTIP: &eAlways use different passwords from other servers."
+      - ""
+    hacking-attack-warning2:
+      - ""
+      - " &c&lSECURITY ALERT"
+      - " &cThe security system has blocked {0} possible hacking attacks on your account."
+      - " &cThree unsuccessful login attempts were made."
+      - ""
+      - " &e&lTIP: &eAlways use different passwords from other servers."
+      - ""
+    weak-password:
+      - ""
+      - " &cThe registered password is considered unsafe."
+      - " &cUse letters, numbers, and symbols to improve security."
+      - " &cExample password: {0}"
+      - ""
+    security-question-warn-message:
+      - ""
+      - " &c&lSECURITY QUESTIONS"
+      - " &7Perform the command &f/2fa squestion add &7to register your"
+      - " &csecurity questions&7. By doing so, you"
+      - " &7decrease the chance of being hacked."
+      - ""
+    security-question-add:
+      - ""
+      - " &e{0}"
+      - ""
+      - " &7Type &f'cancel' &7to cancel the operation."
+      - " &7Click this message to generate another question."
+      - ""
+    security-question-check:
+      - ""
+      - " &aBefore confirming, check the information:"
+      - ""
+      - " &7{0}: &f'{1}'"
+      - ""
+      - " &aIf you are sure, type &f'confirm'&a."
+      - " &eIf you entered something wrong, type &f'repeat'&e."
+      - " &cIf you want to cancel this operation, type &f'cancel'&c."
+      - ""
+    security-question-request:
+      - ""
+      - " &aSorry, but an identity confirmation is required."
+      - " &aAnswer the question below in the chat:"
+      - ""
+      - " &b{0}"
+      - ""
+    security-question-request2:
+      - "&aNext question..."
+      - ""
+      - " &b{0}"
+      - ""
+  notifications:
+    all-viewed: "&aAll notifications have been viewed."
+    notify-after: "&eThis notification will be sent again after {0} minutes."
+    notify-buttons: "[&aConfirm read//&8Remind me later]"
+    notify-buttons-hover: "[&7Click to mark this notification as read.//&7Click to remember this notification later.]"
+  error-messages:
+    already-login: "&cYou are already logged in."
+    already-login2: "&cThis player is already logged in."
+    already-registered: "&cThis nickname has already been registered."
+    not-registered: "&cThis nickname has not yet been registered."
+    no-temporary-code: "&cA temporary code has not yet been generated."
+    incorrect-code: "&cIncorrect code. Please try again."
+    passwords-dont-match: "&cPasswords are not the same."
+    need-password-confirmation: "&cYou must confirm your password."
+    address-limiter-warning: "&cYou have exhausted the account limits per ip."
+    rate-limit: "&cLimit exceeded. Please wait {0} minutes to try again."
+    password-same-as-old: "&cThe password entered is the same as the current."
+    password-too-large: "&cThe password entered is too large."
+    password-too-small: "&cThe password entered is too small."
+    plugman-block: "&cYou can not touch the login plugin here."
+    insufficient-permissions: "&cYou do not have permission to run this command."
+    command-usage: "&cYou must use {0}."
+    already-online: "&cThis player is already online."
+    offline-error: "&cThe desired player is offline."
+    player-command-usage: "&cThis command has been disabled via console."
+    console-command-usage: "&cThis command can only be used via the console."
+    plugin-reload-message: "&eThe plugin has been successfully reloaded."
+    command-function-disabled: "&cThe function of the command {0} is disabled."
+    database-error: "&cSorry, we were unable to complete this operation. Please try again. [SQL FAIL]"
+  twofactor:
+    no-twofactor-registered: "&cYou do not have a {0} account."
+    twofactor-already-registered: "&cYou have already registered your {0}."
+    twofactor-register-limit: "&cYou have exhausted the limits of accounts with the same {0}."
+    twofactor-unregistered: "&eYour {0} was successfully disassociated"
+    confirmed-account: "&aYour {0} account has been successfully registered"
+    confirmation-message-sent: "&7A confirmation code was sent to your &6{0}&7.\n&8(&f{1}&8)."
+    check-message: "&aCheck the message sent to your associated account."
+    command-delay: "&cWait a while before executing this command again."
+    help-command:
+      - ""
+      - " &fStatus: [&a{2} registered//&c{2} not registered]&f."
+      - ""
+      - " [&a■ &7/{0} add: &fRegister your {1}.]"
+      - " [&a■ &7/{0} remove: &fRemove your {1}.]"
+      - " [&a■ &7/{0} recover: &fRecover your account.]"
+      - " [&a■ &7/{0} twofactor: &fEnables/disables the two-factor.]"
+      - ""
+    switch:
+      enabled: "&aThe two-factor feature has been activated."
+      disabled: "&cThe two-factor feature has been deactivated."
+    recover:
+      twofactor-not-equal: "&cThe {0} provided is not the same as the registered one."
+      message-sent: "&aA recovery message was sent to your associated account."
+      automatic-change: "&aYour password was automatically changed to &f'{0}'&a."
+    security-questions:
+      no-question-registered: "&cYou have not yet registered any security questions."
+      invalid-question-id: "&cThe id entered is not valid or is less than or equal to zero."
+      question-does-not-exists: "&cThe question with the id {0} does not exist."
+      question-deleted: "&aThe question with the id {0} has been successfully removed."
+      max-questions: "&cYou have exhausted the limit of security questions allowed on this server."
+      min-questions-recover: "&cYou need to have at least 3 questions registered to recover your account."
+      help-command:
+        - ""
+        - " &fStatus: [&cNo questions registered//&a{1} question registered//&a{1} questions registered]&f."
+        - ""
+        - " [&a■ &7/{0} add: &fRegister a question.]"
+        - " [&a■ &7/{0} remove <id>: &fRemoves a question.]"
+        - " [&a■ &7/{0} list: &fLists your questions.]"
+        - " [&a■ &7/{0} recover: &fRecovers your account.]"
+        - ""
+    discord:
+      confirm-account:
+        - ""
+        - " &7To complete the linking, you need to confirm your Discord account."
+        - " &7Join to &b{0} &7and type "
+        - " &7the command in the DM of the &f{1} &7bot."
+        - ""
+        - " [&aClick here to get the command with the token.]"
+        - ""
+      account-linked: "&aConfiguration in Discord successfully updated.\n&aYou have been linked with &f{0} &aaccount."
+      verify-message:
+        title: "Your password has been created"
+        description: "nLogin's system generated a confirmation password for the @player account."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Command->To authenticate, use the command '/2fa discord @code'."
+      recover-message:
+        title: "Password recovery requested."
+        description: "A password recovery request has been requested for the @player.\nIf it was not you, click on the X reaction to block access."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Problems?->In case of problems, use the '/2fa discord <new password> @code' command."
+      suspect-access:
+        title: "Suspicious activity on the @player account."
+        description: "A suspicious login has been detected in the @player account."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Access data->Date of attempt: @data @hora"
+          - "Access Information->IP Address: @address"
+          - "The possible invader has been banned->The ip address on this account has been temporarily banned on suspicion of invasion."
+      warn-message:
+        - ""
+        - " &7Perform the command &f/2fa discord associate &7to register"
+        - " &7your &cdiscord&7. By doing so, you"
+        - " &7decrease the chance of being hacked."
+        - ""
+      sync-message:
+        invalid-code:
+          title: "***Sign up your Discord***"
+          description: "Sorry, but the token you entered is invalid or does not exist."
+          image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+          fields: []
+        success:
+          title: "***Sign up your Discord***"
+          description: "Your Discord was successfully registered."
+          image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+          fields: []
+      change-address:
+        - ""
+        - "&aSorry, but a confirmation of identity is required."
+        - "&aA security code has been sent to your registered disagreement."
+        - "&aUse the /2fa discord <sent code> command to authenticate yourself."
+        - "&aIf you get the password wrong or you log out, a new code will be generated."
+        - ""
+    twitter:
+      invalid-account: "&cThe entered twitter is invalid."
+      server-twitter: "&cYou cannot use the server's twitter."
+      configure-message:
+        - "The nLogin's system generated a temporary password for the @player account."
+        - ""
+        - "To confirm your account, use the '/2fa twitter @code' command."
+        - "If it wasn't you, ignore this message."
+      verify-message:
+        - "The nLogin's system has generated a confirmation password for the @player account."
+        - ""
+        - "To authenticate, use the '/2fa twitter @code' command."
+        - "If it was not you, change your password IMMEDIATELY."
+      recover-message:
+        - "To recover your account, use the command /2fa twitter <new password> @code"
+        - ""
+        - "If it wasn't you, disregard this message."
+      suspect-access:
+        - "The nLogin's system has detected suspicious activity on your @player account."
+        - ""
+        - "Date of attempt: @data @hora"
+        - ""
+        - "The ip address on this account has been temporarily banned on suspicion of intrusion."
+      warn-message:
+        - ""
+        - " &7Perform the command &f/2fa twitter associate &7to register"
+        - " &7your &ctwitter&7. By doing so, you"
+        - " &7decrease the chance of being hacked."
+        - ""
+      change-address:
+        - ""
+        - "&aSorry, but a confirmation of identity is required."
+        - "&aA security code has been sent to your registered Twitter account."
+        - "&aUse the /2fa twitter command <sent code> to authenticate."
+        - "&aIf you get the password wrong or you log out, a new code will be generated."
+        - ""
+        - "&7Remember to be following &f@twitter_sv &7no twitter."
+        - ""
+    email:
+      invalid-account: "&cThe entered email is invalid."
+      server-email: "&cYou cannot use the server's email."
+      configure-message:
+        subject: "Confirmation of the account @player"
+        content:
+          - "<h1>"
+          - " Hello, @player!"
+          - "</h1>"
+          - "<p>"
+          - " To complete your email registration process, use the command <strong>\"/2fa email @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " If it wasn't you, ignore this message."
+          - "</p>"
+      verify-message:
+        subject: "Login confirmation of the account @player"
+        content:
+          - "<h1>"
+          - " Hello, @player!"
+          - "</h1>"
+          - "<p>"
+          - " To authenticate on the server, use the command <strong>\"/2fa email @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " If it was not you, change your password <strong>IMMEDIATELY</strong>."
+          - "</p>"
+      recover-message:
+        subject: "Recovering the account @player"
+        content:
+          - "<h1>"
+          - " Hello, @player!"
+          - "</h1>"
+          - "<p>"
+          - " To recover your account, use the command <strong>\"/2fa email <new password> @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " If it wasn't you, disregard this message."
+          - "</p>"
+      suspect-access:
+        subject: "Suspicious activity on @player account"
+        content:
+          - "<h1>"
+          - " Hello, @player!"
+          - "</h1>"
+          - "<p>"
+          - " nLogin's system detected a suspicious activity on your account."
+          - "</p>"
+          - "<p>"
+          - "<strong>Date of attempt:</strong> @data @hora"
+          - "</p>"
+          - "<p>"
+          - "The ip address has been temporarily banned on suspicion of invasion."
+          - "</p>"
+      warn-message:
+        - ""
+        - " &7Perform the command &f/2fa email associate &7to register"
+        - " &7your &9email&7. By doing so, you"
+        - " &7decrease the chance of being hacked."
+        - ""
+      require-email:
+        - ""
+        - " &7The current server requires you to enter a"
+        - " &avalid email address &7to complete authentication."
+        - ""
+        - " &aPlease enter your email address in the chat."
+        - ""
+      change-address:
+        - ""
+        - "&a Sorry, but a confirmation of identity is required."
+        - "&aA security code has been sent to your registered email address."
+        - "&aUse the command /2fa email <sent code> to authenticate."
+        - "&aIf you get the password wrong or you log out, a new code will be generated."
+        - ""
+  premium-login:
+    question:
+      - ""
+      - " &eAre you using a premium account?"
+      - " &7(after accepting, you will need to re-join.)"
+      - ""
+      - "[&aYes//&cNo]"
+      - ""
+    already-premium: "&cYour account is already marked as premium."
+    challenge-kick: "&7To confirm that you are using a &apremium account&7, please log in again."
+  bedrock:
+    forms:
+      login:
+        title: "Authentication"
+        content:
+          - "Welcome, @player!"
+          - "To log in, please enter your password in the field below:"
+          - ""
+          - "[Password//Enter your password]"
+          - ""
+      register:
+        title: "Register"
+        content:
+          - "Welcome, @player!"
+          - "To play on the server, you need to create a password."
+          - "Please enter the desired password in the field below."
+          - ""
+          - "[Password//Enter your password]"
+          - "[Confirmation//Confirm your password]"
+          - ""
+  other-messages:
+    login-usage-hover: "&7Click here to complete the command and log in quickly."
+    register-usage-hover: "&7Click here to complete the command and register quickly."
+    login-usage: "&eUse the command &7/login <password>&e."
+    register-usage: "&eUse the command &7/register <password> <password>&e."
+    changepassword-usage: "&eUse the command &7/changepassword <current password> <new password>&e."
+    unregister-usage: "&eUse the command &7/unregister <current password>&e."
+    premium-usage: "&eUse the command &7/premium <current password>&e."
+    cracked-usage: "&eUse the command &7/cracked <current password>&e."
+    language-selector:
+      - ""
+      - " &7We have detected that you are using the language &f{0}&7."
+      - ""
+      - " &eDo you want to change the nLogin language?"
+      - ""
+      - "[&aYes//&cNo]"
+      - ""

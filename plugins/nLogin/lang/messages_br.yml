@@ -1,0 +1,500 @@
+####################################################################################################
+# +----------------------------------------------------------------------------------------------+ #
+# |                                          __             _                                    | #
+# |                                 _ __   / /  ___   __ _(_)_ __                                | #
+# |                                | '_ \ / /  / _ \ / _` | | '_ \                               | #
+# |                                | | | / /__| (_) | (_| | | | | |                              | #
+# |                                |_| |_\____/\___/ \__, |_|_| |_|                              | #
+# |                                                    |___/                                     | #
+# |                                                                                              | #
+# |                      A practical, secure and friendly authentication plugin                  | #
+# |                                                                                              | #
+# |                                © 2022 - Powered by nickuc.com                                | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |  Novas opções não são adicionadas automaticamente neste arquivo. Valores padrões são usados  | #
+# |  caso uma opção não seja encontrada.                                                         | #
+# +----------------------------------------------------------------------------------------------+ #
+####################################################################################################
+
+Messages:
+  Title:
+    before-login:
+      title: "&a&lBEM-VINDO!"
+      subtitle: "&7Utilize /logar <sua senha> para autenticar"
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+    before-register:
+      title: "&a&lBEM-VINDO!"
+      subtitle: "&7Utilize /registrar <sua senha> <sua senha> para registrar"
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+    after-login:
+      title: ""
+      subtitle: "&aVocê se autenticou com sucesso!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    after-register:
+      title: ""
+      subtitle: "&aVocê se registrou com sucesso!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    incorrect-password:
+      title: ""
+      subtitle: "&cSenha incorreta!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    already-login:
+      title: ""
+      subtitle: "&cVocê já está logado!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    already-registered:
+      title: ""
+      subtitle: "&cVocê já está registrado!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    passwords-dont-match:
+      title: ""
+      subtitle: "&cAs senhas não são iguais!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    session-login:
+      title: ""
+      subtitle: "&eSua sessão de login foi continuada."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    premium-login:
+      title: ""
+      subtitle: "&eSua conta é original, logado com sucesso."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    bedrock-login:
+      title: ""
+      subtitle: "&eAcesso via Bedrock, logado com sucesso."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    plugin-reload:
+      title: ""
+      subtitle: "&aOs arquivos de config e de linguagem foram recarregados."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    backup:
+      title: ""
+      subtitle: "&aBackup realizado com sucesso."
+      delays:
+        start: 2
+        duration: 90
+        end: 6
+    backup-error:
+      title: ""
+      subtitle: "&cNão foi possível realizar o backup."
+      delays:
+        start: 2
+        duration: 90
+        end: 6
+    security-warning:
+      title: ""
+      subtitle: "&cUm novo alerta de segurança foi enviado no chat"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    answer-required:
+      title: ""
+      subtitle: "&ePor favor, responda a questão enviada no chat."
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+  action-bar:
+    singular: "&cVocê possui {0} segundo para se {logar/registrar}."
+    plural: "&cVocê possui {0} segundos para se {logar/registrar}."
+  delay-kick:
+    register-kick: "&cVocê demorou muito para registrar."
+    login-kick: "&cVocê demorou muito para logar."
+  successful-operations:
+    password-changed: "&aA sua senha foi alterada com sucesso."
+    successful-login: "&aVocê logou com sucesso."
+    successful-register: "&aVocê se registrou com sucesso."
+    successful-session-login: "&aSua sessão de login foi resumida."
+    successful-premium-login: "&aVocê logou automaticamente, pois está usando uma conta original."
+    successful-bedrock-login: "&aVocê logou automaticamente, pois está acessando por uma conta Bedrock."
+    forcelogin: "&eVocê forçou o login do jogador {0}."
+    unregister-kick: "&aVocê foi desregistrado com sucesso."
+    config-finished: "&aConfiguração finalizada."
+    config-cancelled: "&cAção cancelada."
+  kick-messages:
+    nick-already-registered: "&cVocê não pode entrar com o nick {0}&r\n&r&cEsse nick já foi registrado como {1}&r\n&r\n&r&cPara entrar, você deverá usar seu nick sem letras maiúsculas/minúsculas"
+    failed-many-times: "&cVocê inseriu a senha incorreta."
+    incorrect-password: "&cSenha incorreta. Por favor, tente novamente."
+    incorrect-answer: "&cResposta incorreta. Por favor, tente novamente."
+    wait-server-start: "&cO servidor ainda não iniciou completamente.&r\n&r&cAguarde um pouco para se conectar."
+    account-blocked: "&cSeu endereço de ip foi bloqueado por suspeita de invasão.&r\n&r&cTempo restante: {0}"
+    invalid-nickname: "&cO seu nick é inválido."
+    cracked-switch: "&7Sua conta foi marcada como &6crackeada&7. Por favor, entre novamente."
+  security-messages:
+    hacking-attack-warning:
+      - ""
+      - " &c&lALERTA DE SEGURANÇA"
+      - " &cO sistema de segurança bloqueou um possível ataque de hacking em sua conta."
+      - " &cForam realizadas três tentativas de login sem êxito."
+      - ""
+      - " &e&lDICA: &eSempre utilize senhas diferentes de outros servidores."
+      - ""
+    hacking-attack-warning2:
+      - ""
+      - " &c&lALERTA DE SEGURANÇA"
+      - " &cO sistema de segurança bloqueou {0} possíveis ataques de hacking em sua conta."
+      - " &cForam realizadas três tentativas de login sem êxito."
+      - ""
+      - " &e&lDICA: &eSempre utilize senhas diferentes de outros servidores."
+      - ""
+    weak-password:
+      - ""
+      - " &cA senha registrada é considerada insegura."
+      - " &cUtilize letras, números e símbolos para aprimorar a segurança."
+      - " &cExemplo de senha: '{0}'."
+      - ""
+    security-question-warn-message:
+      - ""
+      - " &c&lPERGUNTAS DE SEGURANÇA"
+      - " &7Utilize o comando &f/2fa squestion add &7para cadastrar"
+      - " &7suas &cperguntas de segurança&7. Ao fazer isso,"
+      - " &7você diminui a chance de ser hackeado."
+      - ""
+    security-question-add:
+      - ""
+      - " &e{0}"
+      - ""
+      - " &7Digite &f'cancelar' &7para cancelar a operação."
+      - " &7Clique nesta mensagem para gerar outra pergunta."
+      - ""
+    security-question-check:
+      - ""
+      - " &aAntes de confirmar, verifique as informações:"
+      - ""
+      - " &7{0}: &f'{1}'"
+      - ""
+      - " &aSe você tem certeza, digite &f'confirmar'&a."
+      - " &eSe inseriu alguma coisa errada, digite &f'repetir'&e."
+      - " &cSe quer cancelar essa operação, digite &f'cancelar'&c."
+      - ""
+    security-question-request:
+      - ""
+      - " &aDesculpe, mas é necessária uma confirmação de identidade."
+      - " &aResponda a pergunta abaixo no chat:"
+      - ""
+      - " &b{0}"
+      - ""
+    security-question-request2:
+      - "&aPróxima pergunta..."
+      - ""
+      - " &b{0}"
+      - ""
+  error-messages:
+    already-login: "&cVocê já está logado."
+    already-login2: "&cEste jogador já está logado."
+    already-registered: "&cEste nickname já foi registrado."
+    not-registered: "&cEste nickname ainda não foi registrado."
+    no-temporary-code: "&cUm código temporário ainda não foi gerado."
+    incorrect-code: "&cCódigo incorreto. Por favor, tente novamente."
+    passwords-dont-match: "&cAs senhas não são iguais."
+    need-password-confirmation: "&cVocê deve confirmar sua senha."
+    address-limiter-warning: "&cVocê esgotou os limites de contas por ip."
+    rate-limit: "&cLimite excedido. Por favor, aguarde {0} minutos para tentar novamente."
+    password-same-as-old: "&cA senha inserida é a mesma que a atual."
+    password-too-large: "&cA senha inserida é muito grande."
+    password-too-small: "&cA senha inserida é muito pequena."
+    plugman-block: "&cVocê não pode mexer no plugin de login por aqui."
+    insufficient-permissions: "&cVocê não tem permissão para executar este comando."
+    command-usage: "&cVocê deve usar {0}."
+    already-online: "&cEste jogador já está online."
+    offline-error: "&cO jogador desejado está offline."
+    player-command-usage: "&cEste comando foi desativado via console."
+    console-command-usage: "&cEste comando só pode ser usado via console."
+    plugin-reload-message: "&eO plugin foi recarregado com sucesso."
+    command-function-disabled: "&cA função do comando {0} está desativada."
+    database-error: "&cDesculpe, mas não foi possível completar esta operação. Por favor, tente novamente. [SQL FAIL]"
+  notifications:
+    all-viewed: "&aTodas as notificações foram visualizadas."
+    notify-after: "&eEssa notificação será enviada novamente depois de {0} minutos."
+    notify-buttons: "[&aConfirmar leitura//&8Lembrar mais tarde]"
+    notify-buttons-hover: "[&7Clique para marcar essa notificação como lida.//&7Clique para lembrar dessa notificação mais tarde.]"
+  twofactor:
+    no-twofactor-registered: "&cVocê não tem nenhum {0} cadastrado."
+    twofactor-already-registered: "&cVocê já cadastrou o seu {0}."
+    twofactor-register-limit: "&cVocê esgotou os limites de contas com o mesmo {0}."
+    twofactor-unregistered: "&eO seu {0} foi desassociado com sucesso."
+    confirmed-account: "&aConfirmação do {0} realizada com sucesso."
+    confirmation-message-sent: "&7Um código de confirmação foi enviado para o seu &6{0}&7.\n&8(&f{1}&8)."
+    check-message: "&aVerifique a mensagem enviada para a sua conta associada."
+    command-delay: "&cEspere um pouco antes de executar esse comando novamente."
+    help-command:
+      - ""
+      - " &fStatus: [&a{2} cadastrado//&c{2} não cadastrado]&f."
+      - ""
+      - " [&a■ &7/{0} add: &fCadastra seu {1}.]"
+      - " [&a■ &7/{0} remove: &fRemove seu {1}.]"
+      - " [&a■ &7/{0} recover: &fRecupera a sua conta.]"
+      - " [&a■ &7/{0} twofactor: &fAtiva/desativa os dois fatores.]"
+      - ""
+    switch:
+      enabled: "&aO recurso de dois fatores foi ativado."
+      disabled: "&cO recurso de dois fatores foi desativado."
+    recover:
+      twofactor-not-equal: "&cO {0} fornecido não é o mesmo que o cadastrado."
+      message-sent: "&aUma mensagem de recuperação foi enviada na sua conta associada."
+      automatic-change: "&aSua senha foi alterada automaticamente para &f'{0}'&a."
+    security-questions:
+      no-question-registered: "&cVocê ainda não cadastrou nenhuma pergunta de segurança."
+      invalid-question-id: "&cO id inserido não é válido ou é menor ou igual a zero."
+      question-does-not-exists: "&cA pergunta com o id {0} não existe."
+      question-deleted: "&aA pergunta com o id {0} foi removida com sucesso."
+      max-questions: "&cVocê esgotou o limite de perguntas de segurança permitidas nesse servidor."
+      min-questions-recover: "&cVocê precisa ter no mínimo 3 perguntas cadastradas para recuperar sua conta."
+      help-command:
+        - ""
+        - " &fStatus: [&cNenhuma pergunta cadastrada//&a{1} pergunta cadastrada//&a{1} perguntas cadastradas]&f."
+        - ""
+        - " [&a■ &7/{0} add: &fCadastra uma pergunta.]"
+        - " [&a■ &7/{0} remove <id>: &fRemove uma pergunta.]"
+        - " [&a■ &7/{0} list: &fMostra as perguntas.]"
+        - " [&a■ &7/{0} recover: &fRecupera a sua conta.]"
+        - ""
+    discord:
+      confirm-account:
+        - ""
+        - " &7Para completar a vinculação, é necessário confirmar sua conta do Discord."
+        - " &7Entre no servidor &b{0} &7e digite"
+        - " &7o comando na DM do bot {1}."
+        - ""
+        - " [&aClique aqui para pegar o comando com o token.]"
+        - ""
+      account-linked: "&aConfiguração do Discord foi atualizada.\n&aVocê foi sincronizado com a conta &f{0}&a."
+      verify-message:
+        title: "Sua senha foi criada."
+        description: "O sistema do nLogin gerou uma senha de confirmação para a conta @player.\nSe não foi você, clique na reação X para bloquear o acesso."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Problemas?->Em caso de problemas, utilize o comando '/2fa discord @code'."
+      recover-message:
+        title: "Recuperação de senha solicitada."
+        description: "Um pedido de recuperação de senha foi solicitado para a conta @player.\nSe não foi você, clique na reação X para bloquear o acesso."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Problemas?->Em caso de problemas, utilize o comando '/2fa discord <nova senha> @code'."
+      suspect-access:
+        title: "Atividade suspeita na conta @player."
+        description: "Um login suspeito foi detectado na conta @player."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Informações do acesso->Data de tentativa: @data às @hora"
+          - "Informações do acesso->Endereço de ip: @address"
+          - "O possível invasor foi banido->O endereço de ip desta conta foi banido temporariamente por suspeita de invasão."
+      warn-message:
+        - ""
+        - " &7Utilize o comando &f/2fa discord associar &7para"
+        - " &7cadastrar seu &cdiscord&7. Ao fazer isso,"
+        - " &7você diminui a chance de ser hackeado."
+        - ""
+      sync-message:
+        invalid-code:
+          title: "***Cadastrar seu Discord***"
+          description: "Desculpe, mas o token inserido é inválido ou não existe."
+          image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+          fields: []
+        success:
+          title: "***Cadastrar seu Discord***"
+          description: "Seu Discord foi cadastrado com sucesso."
+          image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+          fields: []
+      change-address:
+        - ""
+        - " &aDesculpe, mas é necessária uma confirmação de identidade."
+        - " &aUm código de segurança foi enviado para seu Discord cadastrado."
+        - " &aUtilize o comando /2fa discord <código enviado> para se autenticar."
+        - " &aCaso erre a senha ou deslogue, um novo código será gerado."
+        - ""
+    twitter:
+      invalid-account: "&cO twitter inserido é inválido."
+      server-twitter: "&cVocê não pode usar o twitter do servidor."
+      configure-message:
+        - "O sistema do nLogin gerou uma senha temporária para a conta @player."
+        - ""
+        - "Para se autenticar, utilize o comando '/2fa twitter @code'."
+      verify-message:
+        - "O sistema do nLogin gerou uma senha de confirmação para a conta @player."
+        - "Para se autenticar, utilize o comando '/2fa twitter @code'."
+        - ""
+        - "Se não foi você, altere IMEDIATAMENTE sua senha cadastrada."
+      recover-message:
+        - "Para recuperar sua conta, utilize o comando <strong>/2fa twitter <nova senha> @code</strong>."
+        - ""
+        - "Se não foi você, desconsidere essa mensagem."
+      suspect-access:
+        - "O sistema do nLogin detectou uma atividade suspeita na sua conta @player."
+        - ""
+        - "Data do tentativa: @data @hora"
+        - ""
+        - "O endereço de ip desta conta foi banido temporariamente por suspeita de invasão."
+      warn-message:
+        - ""
+        - " &7Utilize o comando &f/2fa twitter associar &7para"
+        - " &7cadastrar seu &ctwitter&7. Ao fazer isso,"
+        - " &7você diminui a chance de ser hackeado."
+        - ""
+      change-address:
+        - ""
+        - " &aDesculpe, mas é necessária uma confirmação de identidade."
+        - " &aUm código de segurança foi enviado para seu Twitter cadastrado."
+        - " &aUtilize o comando /2fa twitter <código enviado> para se autenticar."
+        - " &aCaso erre a senha ou deslogue, um novo código será gerado."
+        - ""
+        - " &7Lembre-se de estar seguindo &f@twitter_sv &7no twitter."
+        - ""
+    email:
+      invalid-account: "&cO e-mail inserido é inválido."
+      server-email: "&cVocê não pode usar o e-mail do servidor."
+      configure-message:
+        subject: "Confirmação de cadastro da conta @player"
+        content:
+          - "<h1>"
+          - " Olá, @player!"
+          - "</h1>"
+          - "<p>"
+          - " Para completar o seu processo de registro de e-mail, utilize o comando <strong>\"/2fa email @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " Se não foi você, desconsidere essa mensagem."
+          - "</p>"
+      verify-message:
+        subject: "Confirmação de login da conta @player"
+        content:
+          - "<h1>"
+          - " Olá, @player!"
+          - "</h1>"
+          - "<p>"
+          - " Para se autenticar no servidor, utilize o comando <strong>\"/2fa email @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " Se não foi você, altere <strong>IMEDIATAMENTE</strong> sua senha cadastrada."
+          - "</p>"
+      recover-message:
+        subject: "Recuperação da conta @player"
+        content:
+          - "<h1>"
+          - " Olá, @player!"
+          - "</h1>"
+          - "<p>"
+          - " Para recuperar sua conta, utilize o comando <strong>\"/2fa email <nova senha> @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " Se não foi você, desconsidere essa mensagem."
+          - "</p>"
+      suspect-access:
+        subject: "Atividade suspeita na conta @player"
+        content:
+          - "<h1>"
+          - " Olá, @player!"
+          - "</h1>"
+          - "<p>"
+          - " O sistema do nLogin detectou uma atividade suspeita na sua conta."
+          - "</p>"
+          - "<p>"
+          - "<strong>Data do tentativa:</strong> @data @hora"
+          - "</p>"
+          - "<p>"
+          - "O endereço de ip foi banido temporariamente por suspeita de invasão."
+          - "</p>"
+      warn-message:
+        - ""
+        - " &7Utilize o comando &f/2fa email associar &7para"
+        - " &7cadastrar seu &9e-mail&7. Ao fazer isso,"
+        - " &7você diminui a chance de ser hackeado."
+        - ""
+      require-email:
+        - ""
+        - " &7O servidor atual exige que você insira um"
+        - " &ae-mail válido &7para concluir a autenticação."
+        - ""
+        - " &aPor favor, digite o seu e-mail no chat."
+        - ""
+      change-address:
+        - ""
+        - " &aDesculpe, mas é necessária uma confirmação de identidade."
+        - " &aUm código de segurança foi enviado para o seu e-mail cadastrado."
+        - " &aUtilize o comando /2fa email <código enviado> para se autenticar."
+        - " &aCaso erre a senha ou deslogue, um novo código será gerado."
+        - ""
+  premium-login:
+    question:
+      - ""
+      - " &eVocê está usando uma conta original?"
+      - " &7(depois de aceitar, você precisará reentrar.)"
+      - ""
+      - "[&aSim//&cNão]"
+      - ""
+    already-premium: "&cSua conta já está marcada como original."
+    challenge-kick: "&7Para confirmar que você está usando uma &aconta original&7, entre novamente."
+  bedrock:
+    forms:
+      login:
+        title: "Autenticação"
+        content:
+          - "Seja bem-vindo, @player!"
+          - "Para se autenticar, insira sua senha no campo abaixo:"
+          - ""
+          - "[Senha//Insira sua senha]"
+          - ""
+      register:
+        title: "Registro"
+        content:
+          - "Seja bem-vindo, @player!"
+          - "Para jogar no servidor, você precisa criar uma senha."
+          - "Por favor, digite no campo abaixo a senha desejada."
+          - ""
+          - "[Senha//Insira sua senha]"
+          - "[Confirmação//Confirme sua senha]"
+          - ""
+  other-messages:
+    login-usage-hover: "&7Clique aqui para completar o comando e se logar rapidamente."
+    register-usage-hover: "&7Clique aqui para completar o comando e se registrar rapidamente."
+    login-usage: "&eUtilize o comando &7/logar <senha>&e."
+    register-usage: "&eUtilize o comando &7/registrar <senha> <senha>&e."
+    changepassword-usage: "&eUtilize o comando &7/mudarsenha <senha atual> <nova senha>&e."
+    unregister-usage: "&eUtilize o comando &7/unregister <senha atual>&e."
+    premium-usage: "&eUtilize o comando &7/premium <senha atual>&e."
+    cracked-usage: "&eUtilize o comando &7/pirata <senha atual>&e."
+    language-selector:
+      - ""
+      - " &7Detectamos que você está usando o idioma &f{0}&7."
+      - ""
+      - " &eVocê deseja alterar o idioma do nLogin?"
+      - ""
+      - "[&aSim//&cNão]"
+      - ""

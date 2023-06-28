@@ -1,0 +1,28 @@
+[06/26/2023 04:45:31]:           __             _       
+[06/26/2023 04:45:31]:   _ __   / /  ___   __ _(_)_ __  
+[06/26/2023 04:45:31]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[06/26/2023 04:45:31]:  | | | / /__| (_) | (_| | | | | |
+[06/26/2023 04:45:31]:  |_| |_\____/\___/ \__, |_|_| |_|
+[06/26/2023 04:45:31]:                   |___/            
+[06/26/2023 04:45:31]:  By: www.nickuc.com - V 10.1.16
+[06/26/2023 04:45:31]: 
+[06/26/2023 04:45:31]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[06/26/2023 04:45:31]: §3[nLogin] [DEBUG] All settings were loaded in 88 ms.
+[06/26/2023 04:45:31]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[06/26/2023 04:45:31]: §3[nLogin] [DEBUG] All plugin messages were loaded in 21 ms (languageByClient=false).
+[06/26/2023 04:45:31]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[06/26/2023 04:45:31]: §3[nLogin] [DEBUG] Starting logger filter...
+[06/26/2023 04:45:31]: §3[nLogin] [DEBUG] Loading database...
+[06/26/2023 04:45:32]: [nLogin] nLogin was loaded in 688ms.
+[06/26/2023 04:46:18]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'ADM8', `uniqueId` = b6c1b663d693300994a2e137347ac938,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$fb14016ecc1fe30a00c64d0f6bf6a45dcfdaf3ae0d01396b3c5e03e9657f3a6532347b7ccef82481b580c02516d224c16063f1381bdd5f8a6e630a696d6bc2ef$VReQKEgfLSksfczPlAwCnfVt', `address` = '174.60.57.199', `regdate` = 2023-06-26 04:44:12.763, `lastlogin` = 2023-06-26 04:46:18.216, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"pw8WRmdf0L0Y++W4i2dnB8HvJsChQUnVE9q6tfWJmPgoEdrYa87Sny4d1yDyANetHhkCMIHNk/3VqO5YFSrLI5UrsQ+QnZqJkfaSoYCoN1ycs9FYCmMnHQybFCnTVknvlYS5AH2290GC3AWOHfSsNiIt4YuYa9wnHCRMb/XLT/N53cip3mCVeUTK/ewDYhvUONaUk3txYJ17Qn1pq+NAWs2T5mOOK0M5XgUIt3/wZBglPW/xGO04esZ0eVMXvJnRybLROun6+PXt7jcb6tJNdArvS0gmpdnNBUfS8rJa3lJ7CdXcUwyAH1x4yK5hraH98dc7hu2W88lvdBn6MTHD7hQNm/6uqyWGFaDdZjHuBvpC9DQioAafYraWMjhECwkEhml/SAkN8cz5TGNAJKwZiG1OeSamcq8O21D6r4EClkl0ArD/msStVo/8EVWTXgEspSrrQmQIwlX7u2zdoO90I3RDK+deiHAsBa/4+t0y2I5feeFYNVtpTLxThB9k7xU/jb4Na7igb5qtoOAe4k/jAMFS7PTLyXnGBGBZG+FbtiN9ktcD16zIWwJdAUwVd6SyFaIH0c+oEpv2vADQkXMCVwDaoP38apnRSc+BnuWuqTSndf94PKekVsnMbqbafUXzL/5LBFsW2lK867BH/zyIimBLuTBG28vwDl/qOej4X+U=:4tt8ThSwJnGQdisFpzH9m5/ItKyF3/LNiJSCopGF7r8hmMRWKeQM3tAtSEk/WeCsB+o=","key":"encrypted"}],"version":0}' WHERE `id` = 1"
+[06/26/2023 04:46:18]: [nLogin] The user ADM8 has successfully logged in.
+[06/27/2023 06:36:51]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`name`, `realname`, `uniqueId`, `premiumId`, `premium`, `password`, `address`, `regdate`, `lastlogin`, `email`, `twitter`, `discord`, `settings`) VALUES ('qxti', 'qxti', aeaa541abb5f3ac9b21ad1f9f2a856bf, null, -1, null, '127.0.0.1', '1970-01-01 01:00:00.0', '1970-01-01 01:00:00.0', null, null, null, null)"
+[06/27/2023 06:37:08]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'qxti', `uniqueId` = aeaa541abb5f3ac9b21ad1f9f2a856bf,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$7483760e25ba1dbd8025f7d286903d1889b337845768551dcc32d3f4ab85350094d238f0c279c204e0c70fd3cff9f291cf4c225fb6e70030563f0617a752b7e6$HjuLrREtYTobsqJOBhBJfoVh', `address` = '73.9.145.108', `regdate` = 2023-06-27 06:37:08.21, `lastlogin` = 2023-06-27 06:37:08.21, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"PW/bRCHvZ6N39DG0w0w/4B/n9mtMxYL8xDpDYe++pzt8a1LwwU60JunJ+XR3kKpnhHGQghuOgh4Gi5SRHMr08hLlDpp4//rJ55vqekBsLYqRO/kThRPtZLLy79Ek4NzqtrU2IKyn2WvUZfBbfy3/rUTGLRv7EwQLm+RqwNs/vhjU7kDmYf2H5UhbCxz2iQuYla5cqi1VkQ92l8etX1XiiQDEqIhFuiLRtNTIie3WyAdgpZxmCXilG454K5j5UI1RV8BM/HtE90sQHS35aPmyULohYxcKWlcA3FVjBh8wOZ2GTEtwrN3PTdz7aJxdWMRJLzsBx2tuBX3zkSNiNOf8SMDxM3H4eT9gZ4u1yNLhAdhScQJ4v0MFrzb40y2aaLYWl5gD8DBBaFX37rnXnR1Ne2voFQzQN/kPL9xV7hWzHsP2FN5cdczjfurOHlkFybbq4us0Kp/ouPhbsNaqb6FqLOcrUahEm1Z8hrLT4h3NtxssxuX4Kj1UK0qjVas1GtK7OpifAoof7CBnKTpSgR26s35jyWJ8Ht33DejsjCkV1r3BDV1s0AovjtppkrDn16ay5qIzEomzUTO/cLMl6mGZ2Ocsn2b2ljysFC0tZq2wb5kgnPLEQdyC3/I/gq72BcSp4sdvo1p/B3ZiW4K1Wh65xfHV0ZVnFcSO55J6znfDKAk=:zl0MGfna2enP5zrzxKZ4JORptEku1mWRslaGLeKW1JNpmT64nxOxHEm2FkVq7sLSVyap9A==","key":"encrypted"}],"version":0}' WHERE `id` = 2"
+[06/27/2023 06:37:08]: [nLogin] The user qxti has successfully registered.
+[06/27/2023 15:04:24]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`name`, `realname`, `uniqueId`, `premiumId`, `premium`, `password`, `address`, `regdate`, `lastlogin`, `email`, `twitter`, `discord`, `settings`) VALUES ('cuute', 'cuute', cc7155c9d7f03cd6bfc3fcd1cd0479a9, null, -1, null, '127.0.0.1', '1970-01-01 01:00:00.0', '1970-01-01 01:00:00.0', null, null, null, null)"
+[06/28/2023 06:30:42]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`name`, `realname`, `uniqueId`, `premiumId`, `premium`, `password`, `address`, `regdate`, `lastlogin`, `email`, `twitter`, `discord`, `settings`) VALUES ('bunger', 'Bunger', 95608b227d7f3267b84424cdd996c5ee, null, -1, null, '127.0.0.1', '1970-01-01 01:00:00.0', '1970-01-01 01:00:00.0', null, null, null, null)"
+[06/28/2023 09:06:05]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[06/28/2023 09:06:05]: [nLogin] 
+[06/28/2023 09:06:05]: [nLogin] Shutting down nLogin V 10.1.16...
+[06/28/2023 09:06:05]: [nLogin] 
+[06/28/2023 09:06:05]: [nLogin] nLogin was unloaded in 0ms.
