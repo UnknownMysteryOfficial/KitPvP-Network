@@ -2,7 +2,7 @@ Free:
   - https://www.spigotmc.org/resources/ajleaderboards.85548/ Ajleaderboards: Handles leaderboards like the total kills hologram. Version 2.7.0 was natively used.
   - https://www.spigotmc.org/resources/automessage.372/updates Automessage: Messages that appear every few minutesa. Version 1.5 used.
   - https://www.spigotmc.org/resources/blueslimecore.83189/ https://www.spigotmc.org/resources/combatlogx.31689/ Combatlogx: Handles combat tagging. Version 2.9.3.371 and 11.4.0.0.1156 respectively.
-  - https://www.spigotmc.org/resources/crackshot-guns.48301/?__cf_chl_tk=LWCoQL0uj5W.R.UuMCCJnvma8kK2zL4BcsBi694BmDw-1686479951-0-gaNycGzNC2U Crackshot: firearm plugin abandonware. Version 0.98.11.
+  - https://www.spigotmc.org/resources/crackshot-guns.48301/ Crackshot: firearm plugin abandonware. Version 0.98.11.
   - https://www.spigotmc.org/resources/decentholograms-1-8-1-20-papi-support-no-dependencies.96927/ Decentholograms: Handles holograms for server. Version 2.8.1
   - https://www.spigotmc.org/resources/deluxemenus.11734/ Deluxemenus: Handles shop menu. Version 1.13.7
   - https://www.spigotmc.org/resources/healthbar-players-and-mobs-1-8-1-18-2.92041/ Healthbar: Plugin that displays healthbar on people. Currently disabled due to personal preference and throwing errors when grenades are used. Version 1.8.1.
