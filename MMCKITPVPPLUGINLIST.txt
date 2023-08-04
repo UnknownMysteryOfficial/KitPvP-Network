@@ -1,0 +1,42 @@
+Free:
+  - https://www.spigotmc.org/resources/ajleaderboards.85548/ Ajleaderboards: Handles leaderboards like the total kills hologram. Version 2.7.0 was natively used.
+  - https://www.spigotmc.org/resources/automessage.372/updates Automessage: Messages that appear every few minutesa. Version 1.5 used.
+  - https://www.spigotmc.org/resources/blueslimecore.83189/ https://www.spigotmc.org/resources/combatlogx.31689/ Combatlogx: Handles combat tagging. Version 2.9.3.371 and 11.4.0.0.1156 respectively.
+  - https://www.spigotmc.org/resources/crackshot-guns.48301/ Crackshot: firearm plugin abandonware. Version 0.98.11.
+  - https://www.spigotmc.org/resources/decentholograms-1-8-1-20-papi-support-no-dependencies.96927/ Decentholograms: Handles holograms for server. Version 2.8.1
+  - https://www.spigotmc.org/resources/deluxemenus.11734/ Deluxemenus: Handles shop menu. Version 1.13.7
+  - https://www.spigotmc.org/resources/healthbar-players-and-mobs-1-8-1-18-2.92041/ Healthbar: Plugin that displays healthbar on people. Currently disabled due to personal preference and throwing errors when grenades are used. Version 1.8.1.
+  - https://www.spigotmc.org/resources/luckperms.28140/ Luckperms: permission manager. Version 5.4.40.
+  - https://github.com/None030/Mortis-Citations Mortiscitations: redundant plugin for giving credit to map creators and developers. Version 1.0.
+  - https://github.com/None030/MortisKitPvp Mortiskitpvp: Kitpvp manager. Use whatever Version is newest, currently running off 3.0 but still has some issues to fix on said version.
+  - https://github.com/None030/Mortis-Heads Mortisheads: Handles custom heads and their potion effects. Version 3.1.
+  - https://www.spigotmc.org/resources/multiverse-core.390/ Multiverse-core: Handles arena system. Version 4.3.1
+  - https://www.spigotmc.org/resources/openlogin-1-7x-1-19x.57272/ OpeNlogin: Let players join the server through a login system to avoid cracked players playing on the server with other player's displayname, inventories and etc. Version 1.6.3.
+  - https://www.nickuc.com/en/#plugins Nlogin: Addon to OpeNlogin, gets downloaded and replaces OpeNlogin during server setup. More features but this project uses the free version. Version 10.1.15.
+  - https://www.spigotmc.org/resources/parties-an-advanced-parties-manager.3709/ Parties: Allows players to make groups to enter matchmaking together. Version 3.2.
+  - https://www.spigotmc.org/resources/placeholderapi.6245/ PlaceholderAPI: dependency plugin for various other plugins. Version 2.11.3.
+  - https://www.spigotmc.org/resources/playerstats.102347/ Playerstats: Statistics plugin. Version 2.0.
+  - https://www.spigotmc.org/resources/protocollib.1997/ ProtocolLib: dependency plugin. Version 5.0.0. 
+  - https://www.spigotmc.org/resources/realscoreboard-1-13-to-1-19-4.22928/ RealScoreboard: Handles scoreboard (The box on the right side of the screen displaying server info). Version 1.1.
+  - https://www.spigotmc.org/resources/setspawn-1-17-1-1-19-4-a-lot-of-features-fully-customisable.31966/ Setspawn: edits spawns on some maps. Version 4.6.
+  - https://www.spigotmc.org/resources/skinsrestorer.2124/ Skinsrestorer: adds skins to cracked servers. Version: 14.2.11.
+  - https://www.spigotmc.org/resources/supervanish-be-invisible.1331/ SuperVanish: vanish plugin for moderators. Version 6.2.16.
+  - https://builtbybit.com/resources/tab-free-trial.20631/ TAB: modifies the tab menu. Version 3.3.2.
+  - https://www.spigotmc.org/resources/spigot-bungee-ultimate-motd-better-server-motd.73226/ UltimateMOTD: Modifies the MOTD message. Version 1.0.1.
+  - https://www.spigotmc.org/resources/vault.34315/ Vault: would handle rank shop. More importantly handles chat. Version 1.7.3.
+  - https://www.spigotmc.org/resources/vaultchatformatter.49016/ VaultChatFormatter: Simple lightweight chat plugin for things such as prefixes. Version 1.1.
+  - https://www.spigotmc.org/resources/viaversion.19254/ ViaVersion: allows support for future versions. Version 4.6.2.
+  - https://www.spigotmc.org/resources/viabackwards.27448/ ViaBackwards: allows support for past versions. Version 4.6.1.
+  - https://www.spigotmc.org/resources/viarewind.52109/ ViaRewind: support for very old versions. Version 2.0.3.
+  - https://www.spigotmc.org/resources/world-chat.368/ WorldChat: separates chats between arenas to avoid spam. Had to manually modify with chatgpt to work. Version 1.0.
+  - https://dev.bukkit.org/projects/worldedit WorldEdit: lets you edit maps quickly. Version 7.2.14 bukkit.
+  - https://dev.bukkit.org/projects/worldguard Worldguard: edits properties of worlds. Version 7.0.7 bukkit.
+  - https://www.spigotmc.org/resources/znpcs.80940/ Znpcs: npcs at spawn. Version 4.1.
+  
+Premium:
+  - https://www.spigotmc.org/resources/%E2%96%91-crackshotplus-%E2%96%91-abandoned-%E2%96%91.18085/ Crackshot addon plugin. Abandonware and might be impossible to acquire. Suggest using wm instead. Version 1.108.
+  - https://www.spigotmc.org/resources/litebans.3715/ Litebans: moderation plugin. Version 2.12.4
+
+Not implemented (still of note):
+  - https://www.spigotmc.org/resources/weaponmechanics-guns-in-minecraft-1-12-1-20.99913/ WeaponMechanics: Possible alternative for crackshot and crackshotplus.
+  - https://www.spigotmc.org/resources/weaponmechanicscosmetics-guns-in-minecraft-1-12-2-1-20.104539/ WeaponMechanicsCosmetics: addon to WeaponMechanics.
