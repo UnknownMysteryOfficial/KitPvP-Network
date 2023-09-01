@@ -121,6 +121,45 @@ Grenade_CSP:
   Abilities:
     Reset_Hit_Cooldown: true
 
+Airstrike:
+    Item_Information:
+        Item_Name: "&eAir Strike"
+        Item_Type: 76
+        Item_Lore: "&eConnects to a meddler bombardment system and drops explosives at the|&eposition of the thrown flare."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: flare
+        Projectile_Subtype: 76
+        Projectile_Speed: 10
+        Sounds_Shoot: FIRE_IGNITE-2-0-0,FIZZ-2-0-0
+    Airstrikes:
+        Enable: true
+        Flare_Activation_Delay: 60
+        Particle_Call_Airstrike: lightning
+        Message_Call_Airstrike: "&eFriendly airstrike on the way."
+        Block_Type: 85
+        Area: 4
+        Distance_Between_Bombs: 4
+        Height_Dropped: 90
+        Vertical_Variation: 10
+        Horizontal_Variation: 10
+        Multiple_Strikes:
+            Enable: true
+            Number_Of_Strikes: 3
+            Delay_Between_Strikes: 20
+        Sounds_Airstrike: ENDERMAN_STARE-2-2-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 4
+        Sounds_Explode: ENDERDRAGON_HIT-2-2-0
+    Extras:
+        One_Time_Use: true
+
 Monkey_Bomb_CSP:
   Item_Information:
     Item_Name: "&7Monkey Bomb"
