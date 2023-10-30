@@ -14,7 +14,7 @@ Server should now be working correctly.
 
 One important thing to note is that while the server was designed for crackshot, it doesn't necessarily require said plugins. Vanilla combat should work as well. Crackshotplus is currently abandonware so if you are interested in firearms, it is recommended to switch to weaponmechanics.
 
-Credits for everyone related can be found in MMCKITPVPMAPS.txt, MMCKITPVPPLUGINS.txt, and the mortiscitations config.yml. Players can see credits in game by running /citations or simply looking at the scoreboard.
+Credits for everyone related can be found in MMCKITPVPMAPS.txt, MMCKITPVPPLUGINS.txt, and the mortiscitations config.yml. Players can see credits in game by running /citations or simply looking at the scoreboard. Special thanks to gabrielito294 and Spxrtans for the hub map.
 
 If you are one of the original map/plugin makers and have any problems regarding this project's usage of work. Please let us know.
 
